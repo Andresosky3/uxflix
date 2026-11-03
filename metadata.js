@@ -1,0 +1,87 @@
+window.UXFLIX_SEASONS=[
+  {
+    "id": 1,
+    "title": "Exploración",
+    "phase": "Descubrir",
+    "subtitle": "Entendemos el problema",
+    "description": "Entendemos el problema y el contexto del negocio.",
+    "background": "assets/8a9ea.png",
+    "character": "assets/e0cf7.png",
+    "duration": "1 a 3 días",
+    "color": "#0753ae",
+    "card": "assets/c3cd3.png",
+    "icon": "assets/c4163.svg",
+    "tipImage": "assets/48-1500-85f6f.svg"
+  },
+  {
+    "id": 2,
+    "title": "Plan de vuelo",
+    "phase": "Definir",
+    "subtitle": "Estructuramos la solución",
+    "description": "Acompañar la construcción de la solución, documentar las especificaciones y verificar que el desarrollo cumpla con los diseños y requerimientos aprobados.",
+    "background": "assets/320af.png",
+    "character": null,
+    "duration": "3 a 5 días",
+    "color": "#5429af",
+    "card": "assets/028b8.png",
+    "icon": "assets/6bc64.svg",
+    "tipImage": "assets/85f6f.svg"
+  },
+  {
+    "id": 3,
+    "title": "Construcción de la nave",
+    "phase": "Diseñar",
+    "subtitle": "Creamos y prototipamos",
+    "description": "Ensamblamos la nave pieza a pieza: de la maqueta al manual de vuelo, con datos ficticios y una historia por pantalla.",
+    "background": "assets/c731e.png",
+    "character": "assets/86ed5.png",
+    "duration": "2 a 20 días · iterativo",
+    "color": "#b71e48",
+    "card": "assets/7ac8d.png",
+    "icon": "assets/7072a.svg",
+    "tipImage": null
+  },
+  {
+    "id": 4,
+    "title": "Simulador de vuelo",
+    "phase": "Testeo",
+    "subtitle": "Validamos experiencias",
+    "description": "Validamos la experiencia con usuarios y con el cliente antes de construir.",
+    "background": "assets/19ecd.png",
+    "character": "assets/7d46f.png",
+    "duration": "1 a 3 días",
+    "color": "#364a92",
+    "card": "assets/19ecd.png",
+    "icon": "assets/84df5.svg",
+    "tipImage": "assets/25-4442-85f6f.svg"
+  },
+  {
+    "id": 5,
+    "title": "Implementar",
+    "phase": "Implementar",
+    "subtitle": "Hacemos realidad",
+    "description": "Ejecución y validación de la solución: llevamos el diseño a desarrollo.",
+    "background": "assets/97ac7.png",
+    "character": "assets/5b091.png",
+    "duration": "SOW: 2 a 4 días",
+    "color": "#a14d19",
+    "card": "assets/97ac7.png",
+    "icon": "assets/45a48.svg",
+    "tipImage": "assets/25-4473-85f6f.svg"
+  },
+  {
+    "id": 6,
+    "title": "Órbita",
+    "phase": "Evolucionar",
+    "subtitle": "Mejora continua",
+    "description": "Proceso continuo: medimos, aprendemos y mejoramos la solución en cada iteración.",
+    "background": "assets/979a3.png",
+    "character": "assets/da23c.png",
+    "duration": "Proceso continuo",
+    "color": "#70429b",
+    "card": "assets/979a3.png",
+    "icon": "assets/1a7c7.svg",
+    "tipImage": "assets/25-4506-85f6f.svg"
+  }
+];
+window.UXFLIX_MISSION=["REGISTRO OFICIAL   /   NAVE OS-UXUI   /   DOCUMENTO N.º 001  ", "Outsourcing", "CARTA DE LA MISIÓN UX/UI", "Declaración de los protocolos generales de vuelo", "N", "osotros, la tripulación del equipo UX/UI, a bordo de cada proyecto que emprendemos, declaramos que ninguna misión despega sin propósito, sin plan y sin acuerdo. Para que cada viaje llegue a su destino y cada decisión sirva a quienes usan lo que diseñamos, adoptamos los siguientes protocolos como ley de a bordo.", "ARTICULADO   /   NUEVE PROTOCOLOS GENERALES", "I", "PG-01", "De la orden de vuelo", "Ninguna misión despega sin una solicitud formal y un responsable de negocio identificado.", "II", "PG-02", "Del registro", "Toda decisión tomada con el cliente queda registrada por escrito, en acta o correo.", "III", "PG-03", "Del prototipo vigente", "Cada proyecto tiene una sola versión oficial del prototipo, en Figma o en HTML, identificada con número de versión y fecha.", "IV", "PG-04", "Del combustible y los tiempos", "Los tiempos de cada fase son los de la metodología. Si una fase se excede, se informa al líder con la causa y la nueva fecha.", "V", "PG-05", "Del cambio de rumbo", "Todo cambio de alcance posterior a su aprobación se gestiona como control de cambios.", "VI", "PG-06", "De los datos de simulación", "Prototipos, documentos y pruebas usan datos ficticios o anonimizados, nunca datos reales.", "VII", "PG-07", "De la identidad de la nave", "Todo diseño aplica los Lineamientos de Diseño UI del equipo o el sistema de diseño del cliente cuando el proyecto lo exige.", "VIII", "PG-08", "De la inteligencia a bordo", "En Claude IA no se carga información confidencial: credenciales, datos personales, bases de datos ni código crítico.", "IX", "PG-09", "Del GO / NO-GO", "Ninguna fase se cierra sin cumplir su criterio de salida.", "Capitana Nova · UX/UI", "Control de Misión · Negocio", "Ingeniero Orión · Desarrollo", "Directora Vega · Líder", "PREÁMBULO  ·  DECLARACIÓN DE LA TRIPULACIÓN", "VALIDACIÓN DE LA TRIPULACIÓN", "Desplázate para leer la carta completa · Al entrar aceptas los protocolos de la misión", "Aceptar y entrar a la misión"];

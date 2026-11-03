@@ -1,0 +1,7 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="1728" height="22" viewBox="0 0 1728 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Barra de progreso">
+<rect y="7" width="1728" height="8" rx="4" fill="white" fill-opacity="0.25"/>
+<rect id="Progreso" y="7" width="1417" height="8" rx="4" fill="#E82943"/>
+<circle id="Cabezal" cx="1417" cy="11" r="11" fill="#E82943"/>
+</g>
+</svg>

@@ -1,0 +1,12 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="648.691" height="430.569" viewBox="0 0 648.691 430.569" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Prop &#194;&#183; Estela" filter="url(#filter0_f_0_216)">
+<path d="M3.13622 424.572L3.27245 427.569C224.406 417.518 485.249 266.862 645.691 6.14458L643.136 4.57229L640.581 3C481.023 262.282 221.866 411.627 3 421.575L3.13622 424.572Z" fill="#FFB98A" fill-opacity="0.55"/>
+</g>
+<defs>
+<filter id="filter0_f_0_216" x="8.9407e-08" y="0" width="648.691" height="430.569" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="1.5" result="effect1_foregroundBlur_0_216"/>
+</filter>
+</defs>
+</svg>

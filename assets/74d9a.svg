@@ -1,0 +1,18 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="1238.67" height="880" viewBox="0 0 1238.67 880" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Planetas">
+<path id="Vector" d="M940 880C1044.93 880 1130 794.934 1130 690C1130 585.066 1044.93 500 940 500C835.066 500 750 585.066 750 690C750 794.934 835.066 880 940 880Z" fill="url(#paint0_radial_0_69)"/>
+<path id="Vector_2" d="M1233.44 627.627C1239.64 656.798 1113.29 708.372 951.227 742.82C789.162 777.268 652.756 781.545 646.555 752.374C640.355 723.202 766.708 671.628 928.772 637.18C1090.84 602.732 1227.24 598.455 1233.44 627.627Z" stroke-width="10" stroke="#BDB4FF" stroke-opacity="0.75"/>
+<path id="Vector_3" d="M160 654C178.778 654 194 638.778 194 620C194 601.222 178.778 586 160 586C141.222 586 126 601.222 126 620C126 638.778 141.222 654 160 654Z" fill="url(#paint1_radial_0_69)"/>
+</g>
+<defs>
+<radialGradient id="paint0_radial_0_69" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(883 614) scale(304)">
+<stop stop-color="#C9C1FF"/>
+<stop offset="0.55" stop-color="#6F63F6"/>
+<stop offset="1" stop-color="#2A2170"/>
+</radialGradient>
+<radialGradient id="paint1_radial_0_69" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(149.8 606.4) scale(54.4)">
+<stop stop-color="#FFD0E8"/>
+<stop offset="1" stop-color="#C24C8E"/>
+</radialGradient>
+</defs>
+</svg>

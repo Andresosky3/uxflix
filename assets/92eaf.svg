@@ -1,0 +1,12 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="59" height="59" viewBox="0 0 59 59" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Part&#195;&#173;cula" filter="url(#filter0_f_0_458)">
+<circle cx="29.5" cy="29.5" r="19.5" fill="#8FE6EF" fill-opacity="0.35"/>
+</g>
+<defs>
+<filter id="filter0_f_0_458" x="0" y="0" width="59" height="59" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="5" result="effect1_foregroundBlur_0_458"/>
+</filter>
+</defs>
+</svg>

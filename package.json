@@ -1,0 +1,1 @@
+{"name":"uxflix","version":"1.0.0","private":true,"description":"Recorrido interactivo UX/UI basado en Figma","scripts":{"start":"node server.js","check":"node --check app.js && node --check content.js && node --check metadata.js && node --check scenes.js && node --check previews.js"}}

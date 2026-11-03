@@ -1,0 +1,36 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="2344.62" height="1550.77" viewBox="0 0 2344.62 1550.77" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Cielo y nebulosas">
+<path id="Vector" d="M2089.85 110.769H273.231C244.682 110.769 221.538 133.913 221.538 162.462V1351.38C221.538 1379.93 244.682 1403.08 273.231 1403.08H2089.85C2118.4 1403.08 2141.54 1379.93 2141.54 1351.38V162.462C2141.54 133.913 2118.4 110.769 2089.85 110.769Z" fill="url(#paint0_linear_0_1008)"/>
+<path id="Vector_2" d="M775.385 904.615C1203.62 904.615 1550.77 714.509 1550.77 480C1550.77 245.491 1203.62 55.3846 775.385 55.3846C347.152 55.3846 0 245.491 0 480C0 714.509 347.152 904.615 775.385 904.615Z" fill="url(#paint1_radial_0_1008)"/>
+<path id="Vector_3" d="M1735.38 738.462C2071.85 738.462 2344.62 573.151 2344.62 369.231C2344.62 165.31 2071.85 0 1735.38 0C1398.92 0 1126.15 165.31 1126.15 369.231C1126.15 573.151 1398.92 738.462 1735.38 738.462Z" fill="url(#paint2_radial_0_1008)"/>
+<path id="Vector_4" d="M1440 1550.77C1909.02 1550.77 2289.23 1368.93 2289.23 1144.62C2289.23 920.303 1909.02 738.462 1440 738.462C970.983 738.462 590.769 920.303 590.769 1144.62C590.769 1368.93 970.983 1550.77 1440 1550.77Z" fill="url(#paint3_radial_0_1008)"/>
+<g id="Group">
+<path id="Vector_5" d="M1858.17 303.908C1923.37 274.878 1970.85 239.263 1964.21 224.36C1957.58 209.457 1899.34 220.909 1834.14 249.938C1768.94 278.968 1721.46 314.583 1728.1 329.486C1734.73 344.389 1792.97 332.938 1858.17 303.908Z" fill="url(#paint4_radial_0_1008)"/>
+<path id="Vector_6" opacity="0.5" d="M1851.41 288.729C1883.08 274.629 1906.4 257.913 1903.5 251.393C1900.6 244.872 1872.57 251.017 1840.9 265.117C1809.23 279.217 1785.91 295.933 1788.81 302.454C1791.72 308.974 1819.74 302.829 1851.41 288.729Z" fill="white"/>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_0_1008" x1="221.538" y1="110.769" x2="221.538" y2="1403.08" gradientUnits="userSpaceOnUse">
+<stop stop-color="#05071A"/>
+<stop offset="0.6" stop-color="#0B1036"/>
+<stop offset="1" stop-color="#140E3A"/>
+</linearGradient>
+<radialGradient id="paint1_radial_0_1008" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(775.385 480) scale(775.385 424.615)">
+<stop stop-color="#6F63F6" stop-opacity="0.55"/>
+<stop offset="1" stop-color="#6F63F6" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="paint2_radial_0_1008" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1735.38 369.231) scale(609.231 369.231)">
+<stop stop-color="#F238A7" stop-opacity="0.35"/>
+<stop offset="1" stop-color="#F238A7" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="paint3_radial_0_1008" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1440 1144.62) scale(849.231 406.154)">
+<stop stop-color="#3EC8FF" stop-opacity="0.35"/>
+<stop offset="1" stop-color="#3EC8FF" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="paint4_radial_0_1008" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1846.15 276.923) rotate(-24) scale(129.231 29.5385)">
+<stop stop-color="white" stop-opacity="0.9"/>
+<stop offset="0.3" stop-color="#C9C1FF" stop-opacity="0.35"/>
+<stop offset="1" stop-color="#C9C1FF" stop-opacity="0"/>
+</radialGradient>
+</defs>
+</svg>
