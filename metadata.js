@@ -2,7 +2,7 @@ window.UXFLIX_SEASONS=[
   {
     "id": 1,
     "title": "Exploración",
-    "phase": "Descubrir",
+    "phase": "Exploración",
     "subtitle": "Entendemos el problema",
     "description": "Entendemos el problema y el contexto del negocio.",
     "background": "assets/8a9ea.png",
@@ -16,7 +16,7 @@ window.UXFLIX_SEASONS=[
   {
     "id": 2,
     "title": "Plan de vuelo",
-    "phase": "Definir",
+    "phase": "Plan de vuelo",
     "subtitle": "Estructuramos la solución",
     "description": "Acompañar la construcción de la solución, documentar las especificaciones y verificar que el desarrollo cumpla con los diseños y requerimientos aprobados.",
     "background": "assets/320af.png",
@@ -30,7 +30,7 @@ window.UXFLIX_SEASONS=[
   {
     "id": 3,
     "title": "Construcción de la nave",
-    "phase": "Diseñar",
+    "phase": "Construcción de la nave",
     "subtitle": "Creamos y prototipamos",
     "description": "Ensamblamos la nave pieza a pieza: de la maqueta al manual de vuelo, con datos ficticios y una historia por pantalla.",
     "background": "assets/c731e.png",
@@ -44,7 +44,7 @@ window.UXFLIX_SEASONS=[
   {
     "id": 4,
     "title": "Simulador de vuelo",
-    "phase": "Testeo",
+    "phase": "Simulador de vuelo",
     "subtitle": "Validamos experiencias",
     "description": "Validamos la experiencia con usuarios y con el cliente antes de construir.",
     "background": "assets/19ecd.png",
@@ -57,8 +57,8 @@ window.UXFLIX_SEASONS=[
   },
   {
     "id": 5,
-    "title": "Implementar",
-    "phase": "Implementar",
+    "title": "Lanzamiento",
+    "phase": "Lanzamiento",
     "subtitle": "Hacemos realidad",
     "description": "Ejecución y validación de la solución: llevamos el diseño a desarrollo.",
     "background": "assets/97ac7.png",
@@ -72,7 +72,7 @@ window.UXFLIX_SEASONS=[
   {
     "id": 6,
     "title": "Órbita",
-    "phase": "Evolucionar",
+    "phase": "Órbita",
     "subtitle": "Mejora continua",
     "description": "Proceso continuo: medimos, aprendemos y mejoramos la solución en cada iteración.",
     "background": "assets/979a3.png",
