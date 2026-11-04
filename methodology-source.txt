@@ -1,0 +1,128 @@
+FASE 1 · DESCUBRIR · 2 a 4 días
+01. Entendimiento del negocio · ¿Qué problema buscamos resolver?
+Políticas
+P-01.1 Se hace una sesión de inicio con negocio antes de cualquier diseño.
+P-01.2 Se documentan el problema, el objetivo y cómo se medirá el éxito.
+P-01.3 Se identifica quién aprueba por parte del cliente.
+P-01.4 Se registran el proceso actual y sus puntos de dolor.
+Reglas de negocio
+RN-01 Sin responsable de negocio que apruebe, no se asigna diseñador/a.
+02. Levantamiento de requerimientos · ¿Qué necesita el usuario?
+Políticas
+P-02.1 Los requerimientos se levantan con quien vive el proceso, no solo con quien lo solicita.
+P-02.2 Cada requerimiento se clasifica por tipo y prioridad.
+P-02.3 Ningún requerimiento entra sin fuente (quién lo pidió y cuándo).
+P-02.4 Los supuestos y las preguntas abiertas se listan como pendientes por validar.
+Reglas de negocio
+RN-02 Ningún requerimiento entra sin fuente identificada.
+03. Referentes · ¿Qué soluciones ya existen?
+Políticas
+P-03.1 Se analizan referentes de competencia, soluciones similares o productos internos.
+P-03.2 De cada referente se registra qué adoptar y qué evitar.
+P-03.3 Se revisa si el cliente tiene sistema de diseño o manual de marca.
+P-03.4 Los referentes inspiran; no se copian interfaces de terceros.
+Reglas de negocio: no tiene una regla propia; aplican las generales.
+FASE 2 · DEFINIR · 3 a 5 días
+04. Arquitectura de información y flujos · ¿Cómo se organizará la experiencia?
+Políticas
+P-04.1 Se definen los roles y lo que cada uno puede ver y hacer.
+P-04.2 Cada flujo incluye el camino principal, los caminos alternos y los casos de error.
+P-04.3 Se construye el mapa de navegación con módulos y pantallas.
+P-04.4 Los flujos se validan con negocio antes de definir el alcance.
+Reglas de negocio: no tiene una regla propia. Su resultado es condición de RN-03 (paso 05).
+05. Definición del alcance · ¿Qué incluye el proyecto?
+Políticas
+P-05.1 Se listan los módulos y pantallas incluidos y, de forma explícita, lo que queda fuera.
+P-05.2 Se define el cronograma por fase con los tiempos de la metodología.
+P-05.3 Se acuerda la herramienta de prototipado (Figma o HTML con Claude) y el número de rondas de ajuste.
+P-05.4 El alcance lo aprueban negocio y el líder del equipo, por escrito.
+Reglas de negocio
+RN-03 No se inicia el diseño sin flujos y alcance aprobados.
+RN-04 Lo que no está en el alcance está fuera de alcance.
+FASE 3 · DISEÑAR · Iterativo / 2 a 20 días
+06. Prototipo de baja fidelidad · ¿Cómo se ve la idea inicial?
+Políticas
+P-06.1 Se trabaja la estructura y el contenido, sin estilos visuales finales.
+P-06.2 Puede hacerse en Figma o como HTML navegable con Claude.
+P-06.3 Cubre todas las pantallas del alcance.
+P-06.4 Se valida con negocio antes de pasar a alta fidelidad.
+Reglas de negocio
+RN-05 No se pasa a alta fidelidad sin validar la baja fidelidad.
+07. Prototipo de alta fidelidad · ¿Cómo se verá la solución final?
+Políticas
+P-07.1 Se aplican los lineamientos visuales y se diseñan todos los estados: vacío, cargando, éxito, error y sin permisos.
+P-07.2 En Figma: se usan componentes reutilizables y nombrados.
+P-07.3 En HTML con Claude: el código es referencial, sin credenciales ni conexiones a servicios reales, y se comparte por enlace con versión identificada.
+P-07.4 Desarrollo revisa la viabilidad técnica antes de presentarlo al cliente.
+Reglas de negocio
+RN-07 Los prototipos usan solo datos ficticios o anonimizados.
+RN-08 El código HTML generado con Claude es referencial; no pasa a producción sin revisión técnica, funcional y de seguridad.
+08. Construcción de historias de usuario · ¿Qué debe hacer el sistema?
+Políticas
+P-08.1 Se escribe una historia por funcionalidad o pantalla: Como [rol], quiero [acción], para [beneficio].
+P-08.2 Cada historia tiene criterios de aceptación: Dado que… cuando… entonces…
+P-08.3 Cada historia referencia su pantalla del prototipo.
+P-08.4 Las reglas de negocio se citan por su código.
+Reglas de negocio
+RN-10 Cada pantalla del prototipo tiene al menos una historia de usuario.
+FASE 4 · TESTEO · Iterativo / 1 a 3 días
+09. Pruebas de prototipo con usuarios · ¿La solución se entiende y funciona?
+Políticas
+P-09.1 Se prueba con usuarios representativos de cada rol principal.
+P-09.2 Se usa un guion de tareas, sin guiar al usuario.
+P-09.3 Cada hallazgo se registra con su severidad: crítico, mayor o menor.
+P-09.4 Los hallazgos críticos se corrigen antes de solicitar la aprobación.
+Reglas de negocio
+RN-11 No se pide la aprobación al cliente con hallazgos críticos abiertos.
+10. Aprobación del prototipo con cliente · ¿El cliente valida la propuesta?
+Políticas
+P-10.1 El prototipo se presenta en una sesión, recorriendo los flujos principales.
+P-10.2 La aprobación solo es válida por escrito.
+P-10.3 Una vez aprobado, el prototipo se congela como versión de referencia para Desarrollo.
+P-10.4 Los cambios posteriores pasan por control de cambios.
+Reglas de negocio
+RN-12 La aprobación del prototipo solo es válida por escrito.
+RN-13 Tras la aprobación, el diseño se congela; los cambios van por control de cambios.
+FASE 5 · IMPLEMENTAR · Ejecución y validación de la solución
+11. Documentación SOW · 2 a 4 días · ¿Qué se va a desarrollar?
+Políticas
+P-11.1 Se usa el formato IT-F-030 y la Estructura de Documentación del equipo.
+P-11.2 Incluye el enlace al prototipo vigente (Figma o HTML) y las capturas de cada pantalla.
+P-11.3 Antes de entregar se aplica el Checklist de Handoff UX.
+P-11.4 Los requisitos de seguridad se marcan como propuesta para validar con Desarrollo y Seguridad.
+Reglas de negocio
+RN-14 Desarrollo no inicia sin el SOW y el checklist de handoff completos.
+12. Acompañamiento al desarrollo · ¿El desarrollo refleja el diseño?
+Políticas
+P-12.1 Hay un canal único para dudas de diseño.
+P-12.2 Se hacen revisiones de avance con Desarrollo.
+P-12.3 Todo ajuste se hace primero en el prototipo vigente y luego se comunica.
+P-12.4 El código HTML del prototipo no se copia al desarrollo sin revisión técnica.
+Reglas de negocio
+RN-15 Todo ajuste durante el desarrollo se refleja primero en el prototipo vigente.
+13. Pruebas preproducción (Validación de mejoras) · ¿Todo quedó listo antes de salir?
+Políticas
+P-13.1 Se valida en preproducción contra el prototipo aprobado y las historias de usuario.
+P-13.2 Se usa un checklist por pantalla: contenido, estados, validaciones, permisos y responsive.
+P-13.3 Los hallazgos se clasifican como bloqueante, mayor o menor, con evidencia.
+P-13.4 No se sale a producción con bloqueantes abiertos.
+Reglas de negocio
+RN-16 No se sale a producción con hallazgos bloqueantes abiertos.
+14. Salida a producción · ¿La solución está lista para usarse?
+Políticas
+P-14.1 La salida la aprueban el líder, Desarrollo y el cliente.
+P-14.2 Después de salir se verifican los flujos principales en producción.
+P-14.3 Se comunica a los usuarios qué cambia.
+P-14.4 Los hallazgos posteriores a la salida pasan al backlog.
+Reglas de negocio
+RN-17 La salida a producción requiere la aprobación del líder, Desarrollo y el cliente.
+FASE 6 · EVOLUCIONAR · Proceso continuo
+15. Backlog y mejora continua · ¿Qué debemos mejorar después?
+Políticas
+P-15.1 Toda mejora se registra con tipo, fuente y prioridad.
+P-15.2 El backlog se revisa periódicamente con negocio.
+P-15.3 Cada mejora que se implementa vuelve a entrar en la metodología, en el paso que corresponda.
+P-15.4 Al cerrar cada proyecto se hace una retrospectiva del equipo.
+Reglas de negocio
+RN-18 Toda mejora posterior entra al backlog con tipo, fuente y prioridad.
+

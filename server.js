@@ -1,7 +1,7 @@
 /* Servidor de desarrollo opcional. Ejecutar: npm start */
 const http=require('node:http'),fs=require('node:fs'),path=require('node:path');
 const root=__dirname,port=Number(process.env.PORT||5173);
-const types={'.html':'text/html; charset=utf-8','.css':'text/css; charset=utf-8','.js':'text/javascript; charset=utf-8','.json':'application/json; charset=utf-8','.png':'image/png','.svg':'image/svg+xml','.jpg':'image/jpeg','.ttf':'font/ttf','.md':'text/plain; charset=utf-8'};
+const types={'.html':'text/html; charset=utf-8','.css':'text/css; charset=utf-8','.js':'text/javascript; charset=utf-8','.json':'application/json; charset=utf-8','.png':'image/png','.svg':'image/svg+xml','.jpg':'image/jpeg','.ttf':'font/ttf','.pdf':'application/pdf','.md':'text/plain; charset=utf-8'};
 http.createServer((req,res)=>{
  let pathname;try{pathname=decodeURIComponent(new URL(req.url,'http://localhost').pathname)}catch{res.writeHead(400);res.end('Ruta no válida');return}
  const target=path.resolve(root,'.'+(pathname==='/'?'/index.html':pathname));

@@ -1,0 +1,711 @@
+/* Figma · Modales compactos: cinco líneas de tiempo coordinadas de 2 s, en bucle.
+   Valores y curvas procedentes de get_motion_context; keyframes compartidos. */
+@property --motion-translate-x { syntax: '<number>'; initial-value: 0; inherits: false; }
+@property --motion-translate-y { syntax: '<number>'; initial-value: 0; inherits: false; }
+@property --motion-rotate { syntax: '<number>'; initial-value: 0; inherits: false; }
+
+@keyframes uxflixCompactMotion1 { 0% { --motion-translate-x: 0; } 100% { --motion-translate-x: -32.307693; } }
+@keyframes uxflixCompactMotion2 { 0% { opacity: 1; } 64% { animation-timing-function: ease-in-out; opacity: 1; } 99% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion3 { 0% { opacity: 1; } 62.5% { animation-timing-function: ease-in-out; opacity: 1; } 97.5% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion4 { 0% { opacity: 1; } 90.5% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion5 { 0% { opacity: 1; } 34.5% { animation-timing-function: ease-in-out; opacity: 1; } 69.5% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion6 { 0% { opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion7 { 0% { opacity: 1; } 54.5% { animation-timing-function: ease-in-out; opacity: 1; } 89.5% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion8 { 0% { opacity: 1; } 69.5% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion9 { 0% { opacity: 1; } 89.5% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion10 { 0% { opacity: 1; } 35% { animation-timing-function: ease-in-out; opacity: 1; } 70% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion11 { 0% { opacity: 1; } 50.5% { animation-timing-function: ease-in-out; opacity: 1; } 85.5% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion12 { 0% { opacity: 1; } 64.5% { animation-timing-function: ease-in-out; opacity: 1; } 99.5% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion13 { 0% { opacity: 1; } 97% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion14 { 0% { opacity: 1; } 14.5% { animation-timing-function: ease-in-out; opacity: 1; } 49.5% { animation-timing-function: ease-in-out; opacity: 0.2; } 84.5% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion15 { 0% { opacity: 1; } 41.5% { animation-timing-function: ease-in-out; opacity: 1; } 76.5% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion16 { 0% { opacity: 1; } 18% { animation-timing-function: ease-in-out; opacity: 1; } 53% { animation-timing-function: ease-in-out; opacity: 0.2; } 88% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion17 { 0% { opacity: 1; } 11.5% { animation-timing-function: ease-in-out; opacity: 1; } 46.5% { animation-timing-function: ease-in-out; opacity: 0.2; } 81.5% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion18 { 0% { opacity: 1; } 14% { animation-timing-function: ease-in-out; opacity: 1; } 49% { animation-timing-function: ease-in-out; opacity: 0.2; } 84% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion19 { 0% { opacity: 1; } 85.5% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion20 { 0% { opacity: 1; } 21.5% { animation-timing-function: ease-in-out; opacity: 1; } 56.5% { animation-timing-function: ease-in-out; opacity: 0.2; } 91.5% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion21 { 0% { opacity: 1; } 40.5% { animation-timing-function: ease-in-out; opacity: 1; } 75.5% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion22 { 0% { opacity: 1; } 43% { animation-timing-function: ease-in-out; opacity: 1; } 78% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion23 { 0% { opacity: 1; } 81% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion24 { 0% { opacity: 1; } 77.5% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion25 { 0% { opacity: 1; } 23% { animation-timing-function: ease-in-out; opacity: 1; } 58% { animation-timing-function: ease-in-out; opacity: 0.2; } 93% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion26 { 0% { opacity: 1; } 30.5% { animation-timing-function: ease-in-out; opacity: 1; } 65.5% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion27 { 0% { opacity: 1; } 56% { animation-timing-function: ease-in-out; opacity: 1; } 91% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion28 { 0% { opacity: 1; } 22% { animation-timing-function: ease-in-out; opacity: 1; } 57% { animation-timing-function: ease-in-out; opacity: 0.2; } 92% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion29 { 0% { opacity: 1; } 89% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion30 { 0% { opacity: 1; } 80.5% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion31 { 0% { opacity: 1; } 96.5% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion32 { 0% { opacity: 1; } 36% { animation-timing-function: ease-in-out; opacity: 1; } 71% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion33 { 0% { opacity: 1; } 16.5% { animation-timing-function: ease-in-out; opacity: 1; } 51.5% { animation-timing-function: ease-in-out; opacity: 0.2; } 86.5% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion34 { 0% { opacity: 1; } 10% { animation-timing-function: ease-in-out; opacity: 1; } 45% { animation-timing-function: ease-in-out; opacity: 0.2; } 80% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion35 { 0% { opacity: 1; } 81.5% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion36 { 0% { opacity: 1; } 38% { animation-timing-function: ease-in-out; opacity: 1; } 73% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion37 { 0% { opacity: 1; } 53% { animation-timing-function: ease-in-out; opacity: 1; } 88% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion38 { 0% { opacity: 1; } 31.5% { animation-timing-function: ease-in-out; opacity: 1; } 66.5% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion39 { 0% { opacity: 1; } 18.5% { animation-timing-function: ease-in-out; opacity: 1; } 53.5% { animation-timing-function: ease-in-out; opacity: 0.2; } 88.5% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion40 { 0% { opacity: 1; } 95% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion41 { 0% { opacity: 1; } 71.5% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion42 { 0% { opacity: 1; } 79% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion43 { 0% { opacity: 1; } 91.5% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion44 { 0% { opacity: 1; } 25.5% { animation-timing-function: ease-in-out; opacity: 1; } 60.5% { animation-timing-function: ease-in-out; opacity: 0.2; } 95.5% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion45 { 0% { opacity: 1; } 72.5% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion46 { 0% { opacity: 1; } 12% { animation-timing-function: ease-in-out; opacity: 1; } 47% { animation-timing-function: ease-in-out; opacity: 0.2; } 82% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion47 { 0% { opacity: 1; } 43.5% { animation-timing-function: ease-in-out; opacity: 1; } 78.5% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion48 { 0% { --motion-translate-x: 0; } 100% { --motion-translate-x: -91.538467; } }
+@keyframes uxflixCompactMotion49 { 0% { opacity: 1; } 76.5% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion50 { 0% { opacity: 1; } 32% { animation-timing-function: ease-in-out; opacity: 1; } 67% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion51 { 0% { opacity: 1; } 74.5% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion52 { 0% { opacity: 1; } 21% { animation-timing-function: ease-in-out; opacity: 1; } 56% { animation-timing-function: ease-in-out; opacity: 0.2; } 91% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion53 { 0% { opacity: 1; } 48% { animation-timing-function: ease-in-out; opacity: 1; } 83% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion54 { 0% { opacity: 1; } 10.5% { animation-timing-function: ease-in-out; opacity: 1; } 45.5% { animation-timing-function: ease-in-out; opacity: 0.2; } 80.5% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion55 { 0% { opacity: 1; } 42.5% { animation-timing-function: ease-in-out; opacity: 1; } 77.5% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion56 { 0% { opacity: 1; } 84% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion57 { 0% { opacity: 1; } 49.5% { animation-timing-function: ease-in-out; opacity: 1; } 84.5% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion58 { 0% { opacity: 1; } 63.5% { animation-timing-function: ease-in-out; opacity: 1; } 98.5% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion59 { 0% { opacity: 1; } 50% { animation-timing-function: ease-in-out; opacity: 1; } 85% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion60 { 0% { opacity: 1; } 51.5% { animation-timing-function: ease-in-out; opacity: 1; } 86.5% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion61 { 0% { opacity: 1; } 34% { animation-timing-function: ease-in-out; opacity: 1; } 69% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion62 { 0% { opacity: 1; } 38.5% { animation-timing-function: ease-in-out; opacity: 1; } 73.5% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion63 { 0% { opacity: 1; } 68.5% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion64 { 0% { opacity: 1; } 59% { animation-timing-function: ease-in-out; opacity: 1; } 94% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion65 { 0% { --motion-translate-x: 0; } 100% { --motion-translate-x: -204.615402; } }
+@keyframes uxflixCompactMotion66 { 0% { opacity: 1; } 66.5% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion67 { 0% { opacity: 1; } 24.5% { animation-timing-function: ease-in-out; opacity: 1; } 59.5% { animation-timing-function: ease-in-out; opacity: 0.2; } 94.5% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion68 { 0% { opacity: 1; } 78.5% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion69 { 0% { --motion-translate-x: 0; } 100% { --motion-translate-x: -16.153847; } }
+@keyframes uxflixCompactMotion70 { 0% { animation-timing-function: ease-out; --motion-translate-x: -409.230804; } 60% { --motion-translate-x: 0; } 100% { --motion-translate-x: 0; } }
+@keyframes uxflixCompactMotion71 { 0% { --motion-translate-y: 0; } 60% { animation-timing-function: ease-in-out; --motion-translate-y: 0; } 80% { animation-timing-function: ease-in-out; --motion-translate-y: -4.846154; } 100% { animation-timing-function: ease-in-out; --motion-translate-y: 0; } 100% { animation-timing-function: ease-in-out; --motion-translate-y: -4.846154; } 100% { animation-timing-function: ease-in-out; --motion-translate-y: 0; } 100% { animation-timing-function: ease-in-out; --motion-translate-y: -4.846154; } 100% { --motion-translate-y: 0; } 100% { --motion-translate-y: 0; } }
+@keyframes uxflixCompactMotion72 { 0% { opacity: 1; } 70% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.35; } 100% { animation-timing-function: ease-in-out; opacity: 0.8; } 100% { animation-timing-function: ease-in-out; opacity: 0.35; } 100% { opacity: 0.8; } }
+@keyframes uxflixCompactMotion73 { 0% { opacity: 1; } 6% { opacity: 0.65; } 12% { opacity: 1; } 18% { opacity: 0.65; } 24% { opacity: 1; } 30% { opacity: 0.65; } 36% { opacity: 1; } 42% { opacity: 0.65; } 48% { opacity: 1; } 54% { opacity: 0.65; } 60% { opacity: 1; } 66% { opacity: 0.65; } 72% { opacity: 1; } 78% { opacity: 0.65; } 84% { opacity: 1; } 90% { opacity: 0.65; } 96% { opacity: 1; } 100% { opacity: 0.65; } 100% { opacity: 1; } 100% { opacity: 0.65; } 100% { opacity: 1; } 100% { opacity: 0.65; } 100% { opacity: 1; } 100% { opacity: 0.65; } 100% { opacity: 1; } 100% { opacity: 0.65; } 100% { opacity: 1; } 100% { opacity: 0.65; } 100% { opacity: 1; } 100% { opacity: 0.65; } 100% { opacity: 1; } 100% { opacity: 0.65; } 100% { opacity: 1; } 100% { opacity: 0.65; } 100% { opacity: 1; } 100% { opacity: 0.65; } 100% { opacity: 1; } 100% { opacity: 0.65; } 100% { opacity: 1; } 100% { opacity: 0.65; } 100% { opacity: 1; } 100% { opacity: 0.65; } 100% { opacity: 1; } 100% { opacity: 0.65; } 100% { opacity: 1; } 100% { opacity: 0.65; } 100% { opacity: 1; } 100% { opacity: 0.65; } 100% { opacity: 1; } 100% { opacity: 0.65; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion74 { 0% { --motion-rotate: 0; } 60% { animation-timing-function: ease-in-out; --motion-rotate: 0; } 100% { animation-timing-function: ease-in-out; --motion-rotate: -0.02618; } 100% { animation-timing-function: ease-in-out; --motion-rotate: 0.017453; } 100% { animation-timing-function: ease-in-out; --motion-rotate: -0.013963; } 100% { --motion-rotate: 0; } }
+@keyframes uxflixCompactMotion75 { 0% { stroke-dasharray: 0 1; visibility: hidden; } 50% { animation-timing-function: cubic-bezier(0.431, 0, 0.634, 0.777); stroke-dasharray: 0 1; visibility: hidden; } 100% { stroke-dasharray: 0.9439 1; visibility: visible; } }
+@keyframes uxflixCompactMotion76 { 0% { --motion-translate-y: 14.000001; } 65% { animation-timing-function: cubic-bezier(0.45, 1.45, 0.8, 1); --motion-translate-y: 14.000001; } 90% { --motion-translate-y: 0; } 100% { --motion-translate-y: 0; } }
+@keyframes uxflixCompactMotion77 { 0% { opacity: 0; } 65% { animation-timing-function: ease-out; opacity: 0; } 82.5% { opacity: 1; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion78 { 0% { --motion-translate-y: 14.000001; } 82.5% { animation-timing-function: cubic-bezier(0.45, 1.45, 0.8, 1); --motion-translate-y: 14.000001; } 100% { --motion-translate-y: 0; } }
+@keyframes uxflixCompactMotion79 { 0% { opacity: 0; } 82.5% { animation-timing-function: ease-out; opacity: 0; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion80 { 0% { --motion-translate-y: 14.000001; } 100% { animation-timing-function: cubic-bezier(0.45, 1.45, 0.8, 1); --motion-translate-y: 14.000001; } 100% { --motion-translate-y: 0; } }
+@keyframes uxflixCompactMotion81 { 0% { opacity: 0; } 100% { animation-timing-function: ease-out; opacity: 0; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion82 { 0% { --motion-translate-y: -10.769232; } 30% { animation-timing-function: ease-out; --motion-translate-y: -10.769232; } 52.5% { --motion-translate-y: 0; } 100% { --motion-translate-y: 0; } }
+@keyframes uxflixCompactMotion83 { 0% { opacity: 0; } 30% { animation-timing-function: ease-out; opacity: 0; } 50% { opacity: 1; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion84 { 0% { --motion-translate-x: 16.153847; } 60% { animation-timing-function: cubic-bezier(0.45, 1.45, 0.8, 1); --motion-translate-x: 16.153847; } 80% { --motion-translate-x: 0; } 100% { --motion-translate-x: 0; } }
+@keyframes uxflixCompactMotion85 { 0% { opacity: 0; } 60% { animation-timing-function: ease-out; opacity: 0; } 75% { opacity: 1; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion86 { 0% { --motion-translate-x: 16.153847; } 77.5% { animation-timing-function: cubic-bezier(0.45, 1.45, 0.8, 1); --motion-translate-x: 16.153847; } 97.5% { --motion-translate-x: 0; } 100% { --motion-translate-x: 0; } }
+@keyframes uxflixCompactMotion87 { 0% { opacity: 0; } 77.5% { animation-timing-function: ease-out; opacity: 0; } 92.5% { opacity: 1; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion88 { 0% { --motion-translate-x: 16.153847; } 95% { animation-timing-function: cubic-bezier(0.45, 1.45, 0.8, 1); --motion-translate-x: 16.153847; } 100% { --motion-translate-x: 0; } }
+@keyframes uxflixCompactMotion89 { 0% { opacity: 0; } 95% { animation-timing-function: ease-out; opacity: 0; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion90 { 0% { --motion-translate-x: 16.153847; } 100% { animation-timing-function: cubic-bezier(0.45, 1.45, 0.8, 1); --motion-translate-x: 16.153847; } 100% { --motion-translate-x: 0; } }
+@keyframes uxflixCompactMotion91 { 0% { opacity: 1; } 87.5% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion92 { 0% { opacity: 1; } 45.5% { animation-timing-function: ease-in-out; opacity: 1; } 80.5% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion93 { 0% { opacity: 1; } 90% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion94 { 0% { opacity: 1; } 65% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion95 { 0% { opacity: 1; } 98.5% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion96 { 0% { opacity: 1; } 56.5% { animation-timing-function: ease-in-out; opacity: 1; } 91.5% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion97 { 0% { opacity: 1; } 99% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion98 { 0% { opacity: 1; } 67.5% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion99 { 0% { opacity: 1; } 19.5% { animation-timing-function: ease-in-out; opacity: 1; } 54.5% { animation-timing-function: ease-in-out; opacity: 0.2; } 89.5% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion100 { 0% { opacity: 1; } 19% { animation-timing-function: ease-in-out; opacity: 1; } 54% { animation-timing-function: ease-in-out; opacity: 0.2; } 89% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion101 { 0% { opacity: 1; } 36.5% { animation-timing-function: ease-in-out; opacity: 1; } 71.5% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion102 { 0% { opacity: 1; } 65.5% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion103 { 0% { opacity: 1; } 41% { animation-timing-function: ease-in-out; opacity: 1; } 76% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion104 { 0% { opacity: 1; } 73.5% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion105 { 0% { opacity: 1; } 26.5% { animation-timing-function: ease-in-out; opacity: 1; } 61.5% { animation-timing-function: ease-in-out; opacity: 0.2; } 96.5% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion106 { 0% { opacity: 1; } 71% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion107 { 0% { opacity: 1; } 23.5% { animation-timing-function: ease-in-out; opacity: 1; } 58.5% { animation-timing-function: ease-in-out; opacity: 0.2; } 93.5% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion108 { 0% { opacity: 1; } 59.5% { animation-timing-function: ease-in-out; opacity: 1; } 94.5% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion109 { 0% { opacity: 1; } 15% { animation-timing-function: ease-in-out; opacity: 1; } 50% { animation-timing-function: ease-in-out; opacity: 0.2; } 85% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion110 { 0% { opacity: 1; } 95.5% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion111 { 0% { opacity: 1; } 27% { animation-timing-function: ease-in-out; opacity: 1; } 62% { animation-timing-function: ease-in-out; opacity: 0.2; } 97% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion112 { 0% { opacity: 1; } 49% { animation-timing-function: ease-in-out; opacity: 1; } 84% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion113 { 0% { opacity: 1; } 73% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion114 { 0% { opacity: 1; } 74% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion115 { 0% { opacity: 1; } 47% { animation-timing-function: ease-in-out; opacity: 1; } 82% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion116 { 0% { opacity: 1; } 15.5% { animation-timing-function: ease-in-out; opacity: 1; } 50.5% { animation-timing-function: ease-in-out; opacity: 0.2; } 85.5% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion117 { 0% { opacity: 1; } 52.5% { animation-timing-function: ease-in-out; opacity: 1; } 87.5% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion118 { 0% { opacity: 1; } 82% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion119 { 0% { opacity: 1; } 53.5% { animation-timing-function: ease-in-out; opacity: 1; } 88.5% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion120 { 0% { opacity: 1; } 17% { animation-timing-function: ease-in-out; opacity: 1; } 52% { animation-timing-function: ease-in-out; opacity: 0.2; } 87% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion121 { 0% { opacity: 1; } 83.5% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion122 { 0% { opacity: 1; } 75% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion123 { 0% { opacity: 1; } 13% { animation-timing-function: ease-in-out; opacity: 1; } 48% { animation-timing-function: ease-in-out; opacity: 0.2; } 83% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion124 { 0% { opacity: 1; } 27.5% { animation-timing-function: ease-in-out; opacity: 1; } 62.5% { animation-timing-function: ease-in-out; opacity: 0.2; } 97.5% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion125 { 0% { opacity: 1; } 62% { animation-timing-function: ease-in-out; opacity: 1; } 97% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion126 { 0% { opacity: 1; } 85% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion127 { 0% { opacity: 1; } 61.5% { animation-timing-function: ease-in-out; opacity: 1; } 96.5% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion128 { 0% { opacity: 1; } 97.5% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion129 { 0% { opacity: 1; } 48.5% { animation-timing-function: ease-in-out; opacity: 1; } 83.5% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion130 { 0% { opacity: 1; } 33% { animation-timing-function: ease-in-out; opacity: 1; } 68% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion131 { 0% { opacity: 1; } 42% { animation-timing-function: ease-in-out; opacity: 1; } 77% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion132 { 0% { opacity: 1; } 70.5% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion133 { 0% { opacity: 0; } 50% { animation-timing-function: ease-out; opacity: 0; } 70% { animation-timing-function: ease-in; opacity: 0.35; } 100% { animation-timing-function: ease-out; opacity: 1; } 100% { opacity: 0.4; } }
+@keyframes uxflixCompactMotion134 { 0% { --motion-translate-x: 140; } 40% { animation-timing-function: ease-in; --motion-translate-x: 140; } 100% { animation-timing-function: ease-out; --motion-translate-x: -102.307701; } 100% { --motion-translate-x: 118.461548; } }
+@keyframes uxflixCompactMotion135 { 0% { --motion-translate-y: 96.92308; } 40% { animation-timing-function: ease-in; --motion-translate-y: 96.92308; } 100% { animation-timing-function: ease-out; --motion-translate-y: 80.769234; } 100% { --motion-translate-y: -118.461548; } }
+@keyframes uxflixCompactMotion136 { 0% { opacity: 0; } 30% { animation-timing-function: ease-out; opacity: 0; } 40% { opacity: 1; } 100% { animation-timing-function: ease-out; opacity: 1; } 100% { opacity: 0; } }
+@keyframes uxflixCompactMotion137 { 0% { opacity: 1; } 82.5% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion138 { 0% { opacity: 1; } 60.5% { animation-timing-function: ease-in-out; opacity: 1; } 95.5% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion139 { 0% { opacity: 1; } 84.5% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion140 { 0% { opacity: 1; } 83% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion141 { 0% { opacity: 1; } 69% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion142 { 0% { opacity: 1; } 55.5% { animation-timing-function: ease-in-out; opacity: 1; } 90.5% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion143 { 0% { opacity: 1; } 20% { animation-timing-function: ease-in-out; opacity: 1; } 55% { animation-timing-function: ease-in-out; opacity: 0.2; } 90% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion144 { 0% { opacity: 1; } 51% { animation-timing-function: ease-in-out; opacity: 1; } 86% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion145 { 0% { opacity: 1; } 33.5% { animation-timing-function: ease-in-out; opacity: 1; } 68.5% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion146 { 0% { opacity: 1; } 52% { animation-timing-function: ease-in-out; opacity: 1; } 87% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion147 { 0% { opacity: 1; } 86% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion148 { 0% { opacity: 1; } 47.5% { animation-timing-function: ease-in-out; opacity: 1; } 82.5% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion149 { 0% { opacity: 1; } 22.5% { animation-timing-function: ease-in-out; opacity: 1; } 57.5% { animation-timing-function: ease-in-out; opacity: 0.2; } 92.5% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion150 { 0% { opacity: 1; } 24% { animation-timing-function: ease-in-out; opacity: 1; } 59% { animation-timing-function: ease-in-out; opacity: 0.2; } 94% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion151 { 0% { opacity: 1; } 13.5% { animation-timing-function: ease-in-out; opacity: 1; } 48.5% { animation-timing-function: ease-in-out; opacity: 0.2; } 83.5% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion152 { 0% { opacity: 1; } 94% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion153 { 0% { opacity: 1; } 57.5% { animation-timing-function: ease-in-out; opacity: 1; } 92.5% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion154 { 0% { opacity: 1; } 61% { animation-timing-function: ease-in-out; opacity: 1; } 96% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion155 { 0% { opacity: 1; } 35.5% { animation-timing-function: ease-in-out; opacity: 1; } 70.5% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion156 { 0% { opacity: 1; } 79.5% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion157 { 0% { opacity: 1; } 58% { animation-timing-function: ease-in-out; opacity: 1; } 93% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion158 { 0% { opacity: 1; } 76% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion159 { 0% { opacity: 1; } 32.5% { animation-timing-function: ease-in-out; opacity: 1; } 67.5% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion160 { 0% { opacity: 1; } 98% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion161 { 0% { opacity: 1; } 31% { animation-timing-function: ease-in-out; opacity: 1; } 66% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion162 { 0% { --motion-translate-y: 14.000001; } 15% { animation-timing-function: cubic-bezier(0.45, 1.45, 0.8, 1); --motion-translate-y: 14.000001; } 40% { --motion-translate-y: 0; } 100% { --motion-translate-y: 0; } }
+@keyframes uxflixCompactMotion163 { 0% { opacity: 0; } 15% { animation-timing-function: ease-out; opacity: 0; } 32.5% { opacity: 1; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion164 { 0% { opacity: 1; } 40% { animation-timing-function: ease-in-out; opacity: 1; } 75% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion165 { 0% { opacity: 1; } 66% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion166 { 0% { opacity: 1; } 70% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion167 { 0% { opacity: 1; } 16% { animation-timing-function: ease-in-out; opacity: 1; } 51% { animation-timing-function: ease-in-out; opacity: 0.2; } 86% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion168 { 0% { opacity: 1; } 87% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion169 { 0% { opacity: 1; } 86.5% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion170 { 0% { opacity: 1; } 46.5% { animation-timing-function: ease-in-out; opacity: 1; } 81.5% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion171 { 0% { opacity: 1; } 29.5% { animation-timing-function: ease-in-out; opacity: 1; } 64.5% { animation-timing-function: ease-in-out; opacity: 0.2; } 99.5% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion172 { 0% { opacity: 1; } 94.5% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion173 { 0% { opacity: 1; } 78% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion174 { 0% { opacity: 1; } 67% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion175 { 0% { opacity: 1; } 63% { animation-timing-function: ease-in-out; opacity: 1; } 98% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion176 { 0% { opacity: 1; } 99.5% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion177 { 0% { opacity: 1; } 37.5% { animation-timing-function: ease-in-out; opacity: 1; } 72.5% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion178 { 0% { opacity: 1; } 57% { animation-timing-function: ease-in-out; opacity: 1; } 92% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion179 { 0% { opacity: 1; } 96% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion180 { 0% { opacity: 1; } 17.5% { animation-timing-function: ease-in-out; opacity: 1; } 52.5% { animation-timing-function: ease-in-out; opacity: 0.2; } 87.5% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion181 { 0% { opacity: 1; } 93.5% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion182 { 0% { opacity: 1; } 11% { animation-timing-function: ease-in-out; opacity: 1; } 46% { animation-timing-function: ease-in-out; opacity: 0.2; } 81% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion183 { 0% { opacity: 0; } 85% { animation-timing-function: ease-out; opacity: 0; } 97.5% { opacity: 1; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion184 { 0% { opacity: 1; } 29% { animation-timing-function: ease-in-out; opacity: 1; } 64% { animation-timing-function: ease-in-out; opacity: 0.2; } 99% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion185 { 0% { opacity: 1; } 77% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion186 { 0% { opacity: 1; } 68% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion187 { 0% { opacity: 1; } 37% { animation-timing-function: ease-in-out; opacity: 1; } 72% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion188 { 0% { opacity: 1; } 58.5% { animation-timing-function: ease-in-out; opacity: 1; } 93.5% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion189 { 0% { opacity: 1; } 30% { animation-timing-function: ease-in-out; opacity: 1; } 65% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion190 { 0% { opacity: 1; } 12.5% { animation-timing-function: ease-in-out; opacity: 1; } 47.5% { animation-timing-function: ease-in-out; opacity: 0.2; } 82.5% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion191 { 0% { opacity: 1; } 55% { animation-timing-function: ease-in-out; opacity: 1; } 90% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion192 { 0% { opacity: 1; } 39% { animation-timing-function: ease-in-out; opacity: 1; } 74% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion193 { 0% { opacity: 1; } 39.5% { animation-timing-function: ease-in-out; opacity: 1; } 74.5% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion194 { 0% { opacity: 1; } 60% { animation-timing-function: ease-in-out; opacity: 1; } 95% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion195 { 0% { opacity: 1; } 92.5% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion196 { 0% { opacity: 1; } 28.5% { animation-timing-function: ease-in-out; opacity: 1; } 63.5% { animation-timing-function: ease-in-out; opacity: 0.2; } 98.5% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+@keyframes uxflixCompactMotion197 { 0% { opacity: 1; } 92% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.2; } 100% { animation-timing-function: ease-in-out; opacity: 1; } 100% { animation-timing-function: ease-in-out; opacity: 0.25; } 100% { opacity: 1; } }
+
+.episode-compact-artboard [data-node-id="284:2599"],
+.episode-compact-artboard [data-node-id="284:5079"],
+.episode-compact-artboard [data-node-id="284:7545"],
+.episode-compact-artboard [data-node-id="284:9785"],
+.episode-compact-artboard [data-node-id="284:12257"] { --motion-translate-x: 0; transform: var(--motion-layout-transform, translate(0px)) var(--motion-design-transform-inverse, matrix(1, 0, 0, 1, 0, 0)) translate(calc(var(--motion-translate-x, 0) * 1px), 0px) var(--motion-design-transform, matrix(1, 0, 0, 1, 0, 0)); transform-origin: 0 0; animation: uxflixCompactMotion1 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:2600"],
+.episode-compact-artboard [data-node-id="284:5305"],
+.episode-compact-artboard [data-node-id="284:5346"],
+.episode-compact-artboard [data-node-id="284:7701"] { animation: uxflixCompactMotion2 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:2605"],
+.episode-compact-artboard [data-node-id="284:2675"],
+.episode-compact-artboard [data-node-id="284:2790"],
+.episode-compact-artboard [data-node-id="284:5315"],
+.episode-compact-artboard [data-node-id="284:7546"] { animation: uxflixCompactMotion3 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:2610"],
+.episode-compact-artboard [data-node-id="284:12569"] { animation: uxflixCompactMotion4 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:2615"],
+.episode-compact-artboard [data-node-id="284:2795"],
+.episode-compact-artboard [data-node-id="284:7731"] { animation: uxflixCompactMotion5 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:2620"] { animation: uxflixCompactMotion6 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:2625"],
+.episode-compact-artboard [data-node-id="284:3007"],
+.episode-compact-artboard [data-node-id="284:7581"],
+.episode-compact-artboard [data-node-id="284:7616"],
+.episode-compact-artboard [data-node-id="284:9791"] { animation: uxflixCompactMotion7 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:2630"] { animation: uxflixCompactMotion8 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:2635"],
+.episode-compact-artboard [data-node-id="284:5260"] { animation: uxflixCompactMotion9 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:2640"],
+.episode-compact-artboard [data-node-id="284:5270"] { animation: uxflixCompactMotion10 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:2645"],
+.episode-compact-artboard [data-node-id="284:2901"],
+.episode-compact-artboard [data-node-id="284:5265"],
+.episode-compact-artboard [data-node-id="284:5275"],
+.episode-compact-artboard [data-node-id="284:10021"] { animation: uxflixCompactMotion11 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:2650"],
+.episode-compact-artboard [data-node-id="284:5200"] { animation: uxflixCompactMotion12 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:2655"],
+.episode-compact-artboard [data-node-id="284:2931"],
+.episode-compact-artboard [data-node-id="284:5245"],
+.episode-compact-artboard [data-node-id="284:9806"],
+.episode-compact-artboard [data-node-id="284:10052"] { animation: uxflixCompactMotion13 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:2660"] { animation: uxflixCompactMotion14 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:2665"],
+.episode-compact-artboard [data-node-id="284:7606"] { animation: uxflixCompactMotion15 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:2670"],
+.episode-compact-artboard [data-node-id="284:9911"],
+.episode-compact-artboard [data-node-id="284:10011"],
+.episode-compact-artboard [data-node-id="284:12574"] { animation: uxflixCompactMotion16 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:2680"],
+.episode-compact-artboard [data-node-id="284:2936"] { animation: uxflixCompactMotion17 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:2685"],
+.episode-compact-artboard [data-node-id="284:3017"] { animation: uxflixCompactMotion18 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:2690"],
+.episode-compact-artboard [data-node-id="284:7751"] { animation: uxflixCompactMotion19 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:2695"],
+.episode-compact-artboard [data-node-id="284:2800"],
+.episode-compact-artboard [data-node-id="284:7922"] { animation: uxflixCompactMotion20 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:2700"],
+.episode-compact-artboard [data-node-id="284:7726"] { animation: uxflixCompactMotion21 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:2705"] { animation: uxflixCompactMotion22 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:2710"],
+.episode-compact-artboard [data-node-id="284:2770"],
+.episode-compact-artboard [data-node-id="284:2866"],
+.episode-compact-artboard [data-node-id="284:2976"],
+.episode-compact-artboard [data-node-id="284:12268"] { animation: uxflixCompactMotion23 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:2715"] { animation: uxflixCompactMotion24 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:2720"] { animation: uxflixCompactMotion25 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:2725"],
+.episode-compact-artboard [data-node-id="284:2956"] { animation: uxflixCompactMotion26 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:2730"],
+.episode-compact-artboard [data-node-id="284:2835"],
+.episode-compact-artboard [data-node-id="284:10026"],
+.episode-compact-artboard [data-node-id="284:12308"],
+.episode-compact-artboard [data-node-id="284:12363"] { animation: uxflixCompactMotion27 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:2735"],
+.episode-compact-artboard [data-node-id="284:10072"],
+.episode-compact-artboard [data-node-id="284:12508"] { animation: uxflixCompactMotion28 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:2740"],
+.episode-compact-artboard [data-node-id="284:5205"],
+.episode-compact-artboard [data-node-id="284:5411"] { animation: uxflixCompactMotion29 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:2745"],
+.episode-compact-artboard [data-node-id="284:7857"] { animation: uxflixCompactMotion30 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:2750"],
+.episode-compact-artboard [data-node-id="284:7631"] { animation: uxflixCompactMotion31 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:2755"],
+.episode-compact-artboard [data-node-id="284:7576"],
+.episode-compact-artboard [data-node-id="284:10203"],
+.episode-compact-artboard [data-node-id="284:12293"],
+.episode-compact-artboard [data-node-id="284:12453"] { animation: uxflixCompactMotion32 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:2760"] { animation: uxflixCompactMotion33 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:2765"],
+.episode-compact-artboard [data-node-id="284:7666"],
+.episode-compact-artboard [data-node-id="284:12333"] { animation: uxflixCompactMotion34 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:2775"],
+.episode-compact-artboard [data-node-id="284:5225"],
+.episode-compact-artboard [data-node-id="284:10062"],
+.episode-compact-artboard [data-node-id="284:12483"] { animation: uxflixCompactMotion35 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:2780"],
+.episode-compact-artboard [data-node-id="284:5095"],
+.episode-compact-artboard [data-node-id="284:9976"] { animation: uxflixCompactMotion36 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:2785"],
+.episode-compact-artboard [data-node-id="284:5175"] { animation: uxflixCompactMotion37 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:2805"],
+.episode-compact-artboard [data-node-id="284:7807"] { animation: uxflixCompactMotion38 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:2810"],
+.episode-compact-artboard [data-node-id="284:10168"],
+.episode-compact-artboard [data-node-id="284:12368"] { animation: uxflixCompactMotion39 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:2815"],
+.episode-compact-artboard [data-node-id="284:12298"] { animation: uxflixCompactMotion40 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:2820"],
+.episode-compact-artboard [data-node-id="284:7681"],
+.episode-compact-artboard [data-node-id="284:10041"],
+.episode-compact-artboard [data-node-id="284:12443"],
+.episode-compact-artboard [data-node-id="284:12640"] { animation: uxflixCompactMotion41 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:2825"],
+.episode-compact-artboard [data-node-id="284:2921"] { animation: uxflixCompactMotion42 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:2830"],
+.episode-compact-artboard [data-node-id="284:7566"],
+.episode-compact-artboard [data-node-id="284:10132"],
+.episode-compact-artboard [data-node-id="284:12624"] { animation: uxflixCompactMotion43 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:2840"],
+.episode-compact-artboard [data-node-id="284:7776"],
+.episode-compact-artboard [data-node-id="284:7812"] { animation: uxflixCompactMotion44 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:2845"],
+.episode-compact-artboard [data-node-id="284:7656"],
+.episode-compact-artboard [data-node-id="284:12660"] { animation: uxflixCompactMotion45 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:2850"],
+.episode-compact-artboard [data-node-id="284:7897"],
+.episode-compact-artboard [data-node-id="284:7912"],
+.episode-compact-artboard [data-node-id="284:12488"],
+.episode-compact-artboard [data-node-id="284:12629"] { animation: uxflixCompactMotion46 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:2855"],
+.episode-compact-artboard [data-node-id="284:2911"],
+.episode-compact-artboard [data-node-id="284:5467"],
+.episode-compact-artboard [data-node-id="284:7716"],
+.episode-compact-artboard [data-node-id="284:7736"],
+.episode-compact-artboard [data-node-id="284:12283"] { animation: uxflixCompactMotion47 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:2860"],
+.episode-compact-artboard [data-node-id="284:5340"],
+.episode-compact-artboard [data-node-id="284:7806"],
+.episode-compact-artboard [data-node-id="284:10046"],
+.episode-compact-artboard [data-node-id="284:12518"] { --motion-translate-x: 0; transform: var(--motion-layout-transform, translate(0px)) var(--motion-design-transform-inverse, matrix(1, 0, 0, 1, 0, 0)) translate(calc(var(--motion-translate-x, 0) * 1px), 0px) var(--motion-design-transform, matrix(1, 0, 0, 1, 0, 0)); transform-origin: 0 0; animation: uxflixCompactMotion48 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:2861"] { animation: uxflixCompactMotion49 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:2871"],
+.episode-compact-artboard [data-node-id="284:7852"],
+.episode-compact-artboard [data-node-id="284:9916"] { animation: uxflixCompactMotion50 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:2876"],
+.episode-compact-artboard [data-node-id="284:7586"],
+.episode-compact-artboard [data-node-id="284:7671"],
+.episode-compact-artboard [data-node-id="284:9841"],
+.episode-compact-artboard [data-node-id="284:10067"],
+.episode-compact-artboard [data-node-id="284:10183"] { animation: uxflixCompactMotion51 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:2881"],
+.episode-compact-artboard [data-node-id="284:5155"],
+.episode-compact-artboard [data-node-id="284:10173"] { animation: uxflixCompactMotion52 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:2886"],
+.episode-compact-artboard [data-node-id="284:5335"],
+.episode-compact-artboard [data-node-id="284:12529"] { animation: uxflixCompactMotion53 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:2891"],
+.episode-compact-artboard [data-node-id="284:5325"],
+.episode-compact-artboard [data-node-id="284:12278"],
+.episode-compact-artboard [data-node-id="284:12463"] { animation: uxflixCompactMotion54 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:2896"] { animation: uxflixCompactMotion55 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:2906"],
+.episode-compact-artboard [data-node-id="284:5230"] { animation: uxflixCompactMotion56 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:2916"],
+.episode-compact-artboard [data-node-id="284:5235"],
+.episode-compact-artboard [data-node-id="284:5310"],
+.episode-compact-artboard [data-node-id="284:7551"] { animation: uxflixCompactMotion57 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:2926"] { animation: uxflixCompactMotion58 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:2941"],
+.episode-compact-artboard [data-node-id="284:2982"],
+.episode-compact-artboard [data-node-id="284:5371"],
+.episode-compact-artboard [data-node-id="284:5477"],
+.episode-compact-artboard [data-node-id="284:9926"] { animation: uxflixCompactMotion59 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:2946"],
+.episode-compact-artboard [data-node-id="284:5366"] { animation: uxflixCompactMotion60 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:2951"],
+.episode-compact-artboard [data-node-id="284:9851"] { animation: uxflixCompactMotion61 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:2961"],
+.episode-compact-artboard [data-node-id="284:3002"],
+.episode-compact-artboard [data-node-id="284:5456"],
+.episode-compact-artboard [data-node-id="284:5472"] { animation: uxflixCompactMotion62 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:2966"],
+.episode-compact-artboard [data-node-id="284:12403"],
+.episode-compact-artboard [data-node-id="284:12634"] { animation: uxflixCompactMotion63 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:2971"],
+.episode-compact-artboard [data-node-id="284:5125"],
+.episode-compact-artboard [data-node-id="284:5300"],
+.episode-compact-artboard [data-node-id="284:7822"],
+.episode-compact-artboard [data-node-id="284:7948"] { animation: uxflixCompactMotion64 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:2981"],
+.episode-compact-artboard [data-node-id="284:5461"],
+.episode-compact-artboard [data-node-id="284:7927"],
+.episode-compact-artboard [data-node-id="284:10167"],
+.episode-compact-artboard [data-node-id="284:12639"] { --motion-translate-x: 0; transform: var(--motion-layout-transform, translate(0px)) var(--motion-design-transform-inverse, matrix(1, 0, 0, 1, 0, 0)) translate(calc(var(--motion-translate-x, 0) * 1px), 0px) var(--motion-design-transform, matrix(1, 0, 0, 1, 0, 0)); transform-origin: 0 0; animation: uxflixCompactMotion65 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:2987"],
+.episode-compact-artboard [data-node-id="284:5482"],
+.episode-compact-artboard [data-node-id="284:7817"],
+.episode-compact-artboard [data-node-id="284:7862"],
+.episode-compact-artboard [data-node-id="284:9796"] { animation: uxflixCompactMotion66 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:2992"],
+.episode-compact-artboard [data-node-id="284:2997"],
+.episode-compact-artboard [data-node-id="284:10162"] { animation: uxflixCompactMotion67 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:3012"] { animation: uxflixCompactMotion68 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:3536"],
+.episode-compact-artboard [data-node-id="284:6016"],
+.episode-compact-artboard [data-node-id="284:8482"],
+.episode-compact-artboard [data-node-id="284:10722"],
+.episode-compact-artboard [data-node-id="284:13194"] { --motion-translate-x: 0; transform: var(--motion-layout-transform, translate(0px)) var(--motion-design-transform-inverse, matrix(1, 0, 0, 1, 0, 0)) translate(calc(var(--motion-translate-x, 0) * 1px), 0px) var(--motion-design-transform, matrix(1, 0, 0, 1, 0, 0)); transform-origin: 0 0; animation: uxflixCompactMotion69 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:3540"],
+.episode-compact-artboard [data-node-id="284:6020"],
+.episode-compact-artboard [data-node-id="284:10726"],
+.episode-compact-artboard [data-node-id="284:13220"] { --motion-translate-x: -409.230804; --motion-translate-y: 0; transform: var(--motion-layout-transform, translate(0px)) var(--motion-design-transform-inverse, matrix(1, 0, 0, 1, 0, 0)) translate(calc(var(--motion-translate-x, 0) * 1px), calc(var(--motion-translate-y, 0) * 1px)) var(--motion-design-transform, matrix(1, 0, 0, 1, 0, 0)); transform-origin: 0 0; animation: uxflixCompactMotion70 2s linear, uxflixCompactMotion71 2s linear, uxflixCompactMotion72 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:3546"],
+.episode-compact-artboard [data-node-id="284:6026"],
+.episode-compact-artboard [data-node-id="284:10732"],
+.episode-compact-artboard [data-node-id="284:13226"] { --motion-translate-x: -409.230804; --motion-translate-y: 0; transform: var(--motion-layout-transform, translate(0px)) var(--motion-design-transform-inverse, matrix(1, 0, 0, 1, 0, 0)) translate(calc(var(--motion-translate-x, 0) * 1px), calc(var(--motion-translate-y, 0) * 1px)) var(--motion-design-transform, matrix(1, 0, 0, 1, 0, 0)); transform-origin: 0 0; animation: uxflixCompactMotion70 2s linear, uxflixCompactMotion71 2s linear, uxflixCompactMotion73 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:3551"],
+.episode-compact-artboard [data-node-id="284:6031"],
+.episode-compact-artboard [data-node-id="284:8489"],
+.episode-compact-artboard [data-node-id="284:10737"],
+.episode-compact-artboard [data-node-id="284:13231"] { --motion-origin-x: 50; --motion-origin-y: 50; --motion-rotate: 0; --motion-translate-x: -409.230804; --motion-translate-y: 0; transform: var(--motion-layout-transform, translate(0px)) translate(calc(var(--motion-origin-x, 0) * 1%), calc(var(--motion-origin-y, 0) * 1%)) var(--motion-design-transform-inverse, matrix(1, 0, 0, 1, 0, 0)) translate(calc(var(--motion-translate-x, 0) * 1px), calc(var(--motion-translate-y, 0) * 1px)) rotate(calc(var(--motion-rotate, 0) * 1rad)) var(--motion-design-transform, matrix(1, 0, 0, 1, 0, 0)) translate(calc(var(--motion-origin-x, 0) * -1%), calc(var(--motion-origin-y, 0) * -1%)); transform-origin: 0 0; animation: uxflixCompactMotion74 2s linear, uxflixCompactMotion70 2s linear, uxflixCompactMotion71 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:3589"] path { stroke-dashoffset: 0; animation: uxflixCompactMotion75 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:3590"] { --motion-translate-y: 14.000001; transform: var(--motion-layout-transform, translate(0px)) var(--motion-design-transform-inverse, matrix(1, 0, 0, 1, 0, 0)) translate(0px, calc(var(--motion-translate-y, 0) * 1px)) var(--motion-design-transform, matrix(1, 0, 0, 1, 0, 0)); transform-origin: 0 0; animation: uxflixCompactMotion76 2s linear, uxflixCompactMotion77 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:3592"] { --motion-translate-y: 14.000001; transform: var(--motion-layout-transform, translate(0px)) var(--motion-design-transform-inverse, matrix(1, 0, 0, 1, 0, 0)) translate(0px, calc(var(--motion-translate-y, 0) * 1px)) var(--motion-design-transform, matrix(1, 0, 0, 1, 0, 0)); transform-origin: 0 0; animation: uxflixCompactMotion78 2s linear, uxflixCompactMotion79 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:3594"],
+.episode-compact-artboard [data-node-id="284:3596"],
+.episode-compact-artboard [data-node-id="284:6077"],
+.episode-compact-artboard [data-node-id="284:8525"],
+.episode-compact-artboard [data-node-id="284:10779"],
+.episode-compact-artboard [data-node-id="284:13268"] { --motion-translate-y: 14.000001; transform: var(--motion-layout-transform, translate(0px)) var(--motion-design-transform-inverse, matrix(1, 0, 0, 1, 0, 0)) translate(0px, calc(var(--motion-translate-y, 0) * 1px)) var(--motion-design-transform, matrix(1, 0, 0, 1, 0, 0)); transform-origin: 0 0; animation: uxflixCompactMotion80 2s linear, uxflixCompactMotion81 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:3609"],
+.episode-compact-artboard [data-node-id="284:6079"],
+.episode-compact-artboard [data-node-id="284:8533"],
+.episode-compact-artboard [data-node-id="284:10791"],
+.episode-compact-artboard [data-node-id="284:13281"] { --motion-translate-y: -10.769232; transform: var(--motion-layout-transform, translate(0px)) var(--motion-design-transform-inverse, matrix(1, 0, 0, 1, 0, 0)) translate(0px, calc(var(--motion-translate-y, 0) * 1px)) var(--motion-design-transform, matrix(1, 0, 0, 1, 0, 0)); transform-origin: 0 0; animation: uxflixCompactMotion82 2s linear, uxflixCompactMotion83 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:3611"],
+.episode-compact-artboard [data-node-id="284:6081"],
+.episode-compact-artboard [data-node-id="284:8535"],
+.episode-compact-artboard [data-node-id="284:10793"],
+.episode-compact-artboard [data-node-id="284:13283"] { --motion-translate-x: 16.153847; transform: var(--motion-layout-transform, translate(0px)) var(--motion-design-transform-inverse, matrix(1, 0, 0, 1, 0, 0)) translate(calc(var(--motion-translate-x, 0) * 1px), 0px) var(--motion-design-transform, matrix(1, 0, 0, 1, 0, 0)); transform-origin: 0 0; animation: uxflixCompactMotion84 2s linear, uxflixCompactMotion85 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:3617"],
+.episode-compact-artboard [data-node-id="284:6087"],
+.episode-compact-artboard [data-node-id="284:8541"],
+.episode-compact-artboard [data-node-id="284:10799"],
+.episode-compact-artboard [data-node-id="284:13289"] { --motion-translate-x: 16.153847; transform: var(--motion-layout-transform, translate(0px)) var(--motion-design-transform-inverse, matrix(1, 0, 0, 1, 0, 0)) translate(calc(var(--motion-translate-x, 0) * 1px), 0px) var(--motion-design-transform, matrix(1, 0, 0, 1, 0, 0)); transform-origin: 0 0; animation: uxflixCompactMotion86 2s linear, uxflixCompactMotion87 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:3623"],
+.episode-compact-artboard [data-node-id="284:6093"],
+.episode-compact-artboard [data-node-id="284:8547"],
+.episode-compact-artboard [data-node-id="284:10805"],
+.episode-compact-artboard [data-node-id="284:13295"] { --motion-translate-x: 16.153847; transform: var(--motion-layout-transform, translate(0px)) var(--motion-design-transform-inverse, matrix(1, 0, 0, 1, 0, 0)) translate(calc(var(--motion-translate-x, 0) * 1px), 0px) var(--motion-design-transform, matrix(1, 0, 0, 1, 0, 0)); transform-origin: 0 0; animation: uxflixCompactMotion88 2s linear, uxflixCompactMotion89 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:3629"],
+.episode-compact-artboard [data-node-id="284:6099"],
+.episode-compact-artboard [data-node-id="284:8553"],
+.episode-compact-artboard [data-node-id="284:10811"],
+.episode-compact-artboard [data-node-id="284:13301"] { --motion-translate-x: 16.153847; transform: var(--motion-layout-transform, translate(0px)) var(--motion-design-transform-inverse, matrix(1, 0, 0, 1, 0, 0)) translate(calc(var(--motion-translate-x, 0) * 1px), 0px) var(--motion-design-transform, matrix(1, 0, 0, 1, 0, 0)); transform-origin: 0 0; animation: uxflixCompactMotion90 2s linear, uxflixCompactMotion81 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:5080"],
+.episode-compact-artboard [data-node-id="284:10036"],
+.episode-compact-artboard [data-node-id="284:12258"] { animation: uxflixCompactMotion91 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:5085"],
+.episode-compact-artboard [data-node-id="284:5100"],
+.episode-compact-artboard [data-node-id="284:7686"] { animation: uxflixCompactMotion92 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:5090"],
+.episode-compact-artboard [data-node-id="284:5250"],
+.episode-compact-artboard [data-node-id="284:7796"],
+.episode-compact-artboard [data-node-id="284:12438"] { animation: uxflixCompactMotion93 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:5105"],
+.episode-compact-artboard [data-node-id="284:5396"],
+.episode-compact-artboard [data-node-id="284:7847"] { animation: uxflixCompactMotion94 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:5110"],
+.episode-compact-artboard [data-node-id="284:5140"],
+.episode-compact-artboard [data-node-id="284:12655"] { animation: uxflixCompactMotion95 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:5115"],
+.episode-compact-artboard [data-node-id="284:9826"],
+.episode-compact-artboard [data-node-id="284:9901"] { animation: uxflixCompactMotion96 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:5120"],
+.episode-compact-artboard [data-node-id="284:7766"] { animation: uxflixCompactMotion97 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:5130"] { animation: uxflixCompactMotion98 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:5135"] { animation: uxflixCompactMotion99 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:5145"] { animation: uxflixCompactMotion100 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:5150"],
+.episode-compact-artboard [data-node-id="284:9961"] { animation: uxflixCompactMotion101 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:5160"],
+.episode-compact-artboard [data-node-id="284:5431"],
+.episode-compact-artboard [data-node-id="284:7611"],
+.episode-compact-artboard [data-node-id="284:10097"],
+.episode-compact-artboard [data-node-id="284:10142"],
+.episode-compact-artboard [data-node-id="284:12263"] { animation: uxflixCompactMotion102 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:5165"],
+.episode-compact-artboard [data-node-id="284:7596"],
+.episode-compact-artboard [data-node-id="284:9956"],
+.episode-compact-artboard [data-node-id="284:9991"] { animation: uxflixCompactMotion103 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:5170"],
+.episode-compact-artboard [data-node-id="284:7938"] { animation: uxflixCompactMotion104 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:5180"],
+.episode-compact-artboard [data-node-id="284:7801"],
+.episode-compact-artboard [data-node-id="284:7902"],
+.episode-compact-artboard [data-node-id="284:10127"] { animation: uxflixCompactMotion105 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:5185"],
+.episode-compact-artboard [data-node-id="284:9816"] { animation: uxflixCompactMotion106 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:5190"],
+.episode-compact-artboard [data-node-id="284:5492"] { animation: uxflixCompactMotion107 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:5195"],
+.episode-compact-artboard [data-node-id="284:5381"],
+.episode-compact-artboard [data-node-id="284:10152"],
+.episode-compact-artboard [data-node-id="284:12534"] { animation: uxflixCompactMotion108 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:5210"],
+.episode-compact-artboard [data-node-id="284:5295"],
+.episode-compact-artboard [data-node-id="284:7601"],
+.episode-compact-artboard [data-node-id="284:12418"],
+.episode-compact-artboard [data-node-id="284:12670"] { animation: uxflixCompactMotion109 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:5215"],
+.episode-compact-artboard [data-node-id="284:10047"],
+.episode-compact-artboard [data-node-id="284:12343"],
+.episode-compact-artboard [data-node-id="284:12665"] { animation: uxflixCompactMotion110 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:5220"],
+.episode-compact-artboard [data-node-id="284:7691"] { animation: uxflixCompactMotion111 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:5240"],
+.episode-compact-artboard [data-node-id="284:5462"],
+.episode-compact-artboard [data-node-id="284:9866"] { animation: uxflixCompactMotion112 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:5255"],
+.episode-compact-artboard [data-node-id="284:5356"],
+.episode-compact-artboard [data-node-id="284:7832"],
+.episode-compact-artboard [data-node-id="284:9951"],
+.episode-compact-artboard [data-node-id="284:12398"] { animation: uxflixCompactMotion113 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:5280"],
+.episode-compact-artboard [data-node-id="284:12348"],
+.episode-compact-artboard [data-node-id="284:12584"] { animation: uxflixCompactMotion114 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:5285"],
+.episode-compact-artboard [data-node-id="284:9831"] { animation: uxflixCompactMotion115 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:5290"] { animation: uxflixCompactMotion116 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:5320"],
+.episode-compact-artboard [data-node-id="284:9861"],
+.episode-compact-artboard [data-node-id="284:9981"],
+.episode-compact-artboard [data-node-id="284:10117"] { animation: uxflixCompactMotion117 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:5330"],
+.episode-compact-artboard [data-node-id="284:7842"],
+.episode-compact-artboard [data-node-id="284:10082"] { animation: uxflixCompactMotion118 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:5341"],
+.episode-compact-artboard [data-node-id="284:12388"],
+.episode-compact-artboard [data-node-id="284:12554"] { animation: uxflixCompactMotion119 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:5351"],
+.episode-compact-artboard [data-node-id="284:5386"],
+.episode-compact-artboard [data-node-id="284:9856"],
+.episode-compact-artboard [data-node-id="284:12614"] { animation: uxflixCompactMotion120 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:5361"],
+.episode-compact-artboard [data-node-id="284:5436"],
+.episode-compact-artboard [data-node-id="284:12579"],
+.episode-compact-artboard [data-node-id="284:12650"] { animation: uxflixCompactMotion121 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:5376"],
+.episode-compact-artboard [data-node-id="284:10147"],
+.episode-compact-artboard [data-node-id="284:12458"] { animation: uxflixCompactMotion122 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:5391"],
+.episode-compact-artboard [data-node-id="284:5421"],
+.episode-compact-artboard [data-node-id="284:7591"],
+.episode-compact-artboard [data-node-id="284:12519"] { animation: uxflixCompactMotion123 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:5401"],
+.episode-compact-artboard [data-node-id="284:7928"],
+.episode-compact-artboard [data-node-id="284:12599"] { animation: uxflixCompactMotion124 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:5406"],
+.episode-compact-artboard [data-node-id="284:7626"],
+.episode-compact-artboard [data-node-id="284:10193"] { animation: uxflixCompactMotion125 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:5416"],
+.episode-compact-artboard [data-node-id="284:12423"],
+.episode-compact-artboard [data-node-id="284:12513"] { animation: uxflixCompactMotion126 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:5426"],
+.episode-compact-artboard [data-node-id="284:9846"] { animation: uxflixCompactMotion127 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:5441"],
+.episode-compact-artboard [data-node-id="284:7651"] { animation: uxflixCompactMotion128 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:5446"],
+.episode-compact-artboard [data-node-id="284:9836"],
+.episode-compact-artboard [data-node-id="284:9871"],
+.episode-compact-artboard [data-node-id="284:10087"] { animation: uxflixCompactMotion129 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:5451"],
+.episode-compact-artboard [data-node-id="284:7556"] { animation: uxflixCompactMotion130 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:5487"],
+.episode-compact-artboard [data-node-id="284:12408"],
+.episode-compact-artboard [data-node-id="284:12539"] { animation: uxflixCompactMotion131 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:5497"],
+.episode-compact-artboard [data-node-id="284:7561"],
+.episode-compact-artboard [data-node-id="284:9891"] { animation: uxflixCompactMotion132 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:6067"] { animation: uxflixCompactMotion133 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:6069"] { --motion-translate-x: 140; --motion-translate-y: 96.92308; transform: var(--motion-layout-transform, translate(0px)) var(--motion-design-transform-inverse, matrix(1, 0, 0, 1, 0, 0)) translate(calc(var(--motion-translate-x, 0) * 1px), calc(var(--motion-translate-y, 0) * 1px)) var(--motion-design-transform, matrix(1, 0, 0, 1, 0, 0)); transform-origin: 0 0; animation: uxflixCompactMotion134 2s linear, uxflixCompactMotion135 2s linear, uxflixCompactMotion136 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:7571"] { animation: uxflixCompactMotion137 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:7621"],
+.episode-compact-artboard [data-node-id="284:7786"] { animation: uxflixCompactMotion138 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:7636"],
+.episode-compact-artboard [data-node-id="284:9906"],
+.episode-compact-artboard [data-node-id="284:12323"],
+.episode-compact-artboard [data-node-id="284:12589"] { animation: uxflixCompactMotion139 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:7641"],
+.episode-compact-artboard [data-node-id="284:7877"],
+.episode-compact-artboard [data-node-id="284:10016"],
+.episode-compact-artboard [data-node-id="284:12468"],
+.episode-compact-artboard [data-node-id="284:12594"] { animation: uxflixCompactMotion140 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:7646"],
+.episode-compact-artboard [data-node-id="284:9996"],
+.episode-compact-artboard [data-node-id="284:12498"],
+.episode-compact-artboard [data-node-id="284:12609"] { animation: uxflixCompactMotion141 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:7661"] { animation: uxflixCompactMotion142 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:7676"],
+.episode-compact-artboard [data-node-id="284:7706"],
+.episode-compact-artboard [data-node-id="284:7917"],
+.episode-compact-artboard [data-node-id="284:9941"] { animation: uxflixCompactMotion143 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:7696"],
+.episode-compact-artboard [data-node-id="284:9971"] { animation: uxflixCompactMotion144 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:7711"],
+.episode-compact-artboard [data-node-id="284:7741"],
+.episode-compact-artboard [data-node-id="284:7781"],
+.episode-compact-artboard [data-node-id="284:7872"],
+.episode-compact-artboard [data-node-id="284:12473"],
+.episode-compact-artboard [data-node-id="284:12493"] { animation: uxflixCompactMotion145 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:7721"] { animation: uxflixCompactMotion146 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:7746"],
+.episode-compact-artboard [data-node-id="284:7958"] { animation: uxflixCompactMotion147 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:7756"],
+.episode-compact-artboard [data-node-id="284:12313"],
+.episode-compact-artboard [data-node-id="284:12619"] { animation: uxflixCompactMotion148 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:7761"] { animation: uxflixCompactMotion149 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:7771"] { animation: uxflixCompactMotion150 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:7791"] { animation: uxflixCompactMotion151 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:7827"],
+.episode-compact-artboard [data-node-id="284:7887"],
+.episode-compact-artboard [data-node-id="284:10001"],
+.episode-compact-artboard [data-node-id="284:12353"] { animation: uxflixCompactMotion152 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:7837"],
+.episode-compact-artboard [data-node-id="284:9786"],
+.episode-compact-artboard [data-node-id="284:9801"] { animation: uxflixCompactMotion153 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:7867"],
+.episode-compact-artboard [data-node-id="284:12378"] { animation: uxflixCompactMotion154 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:7882"] { animation: uxflixCompactMotion155 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:7892"],
+.episode-compact-artboard [data-node-id="284:9881"],
+.episode-compact-artboard [data-node-id="284:9921"],
+.episode-compact-artboard [data-node-id="284:9946"],
+.episode-compact-artboard [data-node-id="284:10157"] { animation: uxflixCompactMotion156 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:7907"],
+.episode-compact-artboard [data-node-id="284:12358"],
+.episode-compact-artboard [data-node-id="284:12549"] { animation: uxflixCompactMotion157 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:7933"] { animation: uxflixCompactMotion158 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:7943"],
+.episode-compact-artboard [data-node-id="284:10031"] { animation: uxflixCompactMotion159 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:7953"] { animation: uxflixCompactMotion160 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:7963"] { animation: uxflixCompactMotion161 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:8486"] { --motion-translate-y: 14.000001; transform: var(--motion-layout-transform, translate(0px)) var(--motion-design-transform-inverse, matrix(1, 0, 0, 1, 0, 0)) translate(0px, calc(var(--motion-translate-y, 0) * 1px)) var(--motion-design-transform, matrix(1, 0, 0, 1, 0, 0)); transform-origin: 0 0; animation: uxflixCompactMotion162 2s linear, uxflixCompactMotion163 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:9811"],
+.episode-compact-artboard [data-node-id="284:12338"] { animation: uxflixCompactMotion164 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:9821"],
+.episode-compact-artboard [data-node-id="284:12318"] { animation: uxflixCompactMotion165 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:9876"] { animation: uxflixCompactMotion166 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:9886"],
+.episode-compact-artboard [data-node-id="284:10006"] { animation: uxflixCompactMotion167 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:9896"],
+.episode-compact-artboard [data-node-id="284:9966"] { animation: uxflixCompactMotion168 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:9931"] { animation: uxflixCompactMotion169 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:9936"],
+.episode-compact-artboard [data-node-id="284:12373"] { animation: uxflixCompactMotion170 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:9986"],
+.episode-compact-artboard [data-node-id="284:12273"] { animation: uxflixCompactMotion171 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:10057"] { animation: uxflixCompactMotion172 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:10077"] { animation: uxflixCompactMotion173 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:10092"] { animation: uxflixCompactMotion174 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:10102"] { animation: uxflixCompactMotion175 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:10107"] { animation: uxflixCompactMotion176 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:10112"] { animation: uxflixCompactMotion177 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:10122"] { animation: uxflixCompactMotion178 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:10137"] { animation: uxflixCompactMotion179 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:10178"] { animation: uxflixCompactMotion180 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:10188"] { animation: uxflixCompactMotion181 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:10198"],
+.episode-compact-artboard [data-node-id="284:12433"] { animation: uxflixCompactMotion182 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:10774"] { --motion-translate-x: -409.230804; --motion-translate-y: 0; transform: var(--motion-layout-transform, translate(0px)) var(--motion-design-transform-inverse, matrix(1, 0, 0, 1, 0, 0)) translate(calc(var(--motion-translate-x, 0) * 1px), calc(var(--motion-translate-y, 0) * 1px)) var(--motion-design-transform, matrix(1, 0, 0, 1, 0, 0)); transform-origin: 0 0; animation: uxflixCompactMotion70 2s linear, uxflixCompactMotion71 2s linear, uxflixCompactMotion183 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:12288"] { animation: uxflixCompactMotion184 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:12303"] { animation: uxflixCompactMotion185 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:12328"],
+.episode-compact-artboard [data-node-id="284:12559"],
+.episode-compact-artboard [data-node-id="284:12564"] { animation: uxflixCompactMotion186 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:12383"] { animation: uxflixCompactMotion187 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:12393"] { animation: uxflixCompactMotion188 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:12413"] { animation: uxflixCompactMotion189 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:12428"],
+.episode-compact-artboard [data-node-id="284:12604"] { animation: uxflixCompactMotion190 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:12448"] { animation: uxflixCompactMotion191 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:12478"] { animation: uxflixCompactMotion192 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:12503"] { animation: uxflixCompactMotion193 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:12524"] { animation: uxflixCompactMotion194 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:12544"] { animation: uxflixCompactMotion195 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:12645"] { animation: uxflixCompactMotion196 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:12675"] { animation: uxflixCompactMotion197 2s linear; animation-iteration-count: infinite; }
+.episode-compact-artboard [data-node-id="284:13211"] { animation: uxflixCompactMotion81 2s linear; animation-iteration-count: infinite; }
+
+@media (prefers-reduced-motion: reduce) {
+  .episode-compact-artboard [data-node-id],
+  .episode-compact-artboard [data-node-id] path {
+    animation: none !important;
+    --motion-translate-x: 0 !important;
+    --motion-translate-y: 0 !important;
+    --motion-rotate: 0 !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+  }
+  .episode-compact-artboard [data-node-id="284:3589"] path {
+    stroke-dasharray: none;
+  }
+}

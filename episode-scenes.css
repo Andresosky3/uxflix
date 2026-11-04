@@ -1,0 +1,135 @@
+/* Lienzo de capítulo 1920 × 1080. El reproductor aplica la escala exterior. */
+.episode-source-scene {
+  --episode-ink: #f9fbff;
+  --episode-muted: #b5c5e0;
+  --episode-aqua: #9cf0e3;
+  position: relative;
+  width: 1920px;
+  height: 1080px;
+  display: grid;
+  grid-template-rows: auto minmax(0, 1fr) auto auto;
+  gap: 22px;
+  padding: 48px 64px 36px;
+  overflow: hidden;
+  isolation: isolate;
+  background: #10162b;
+  color: var(--episode-ink);
+  font-family: Inter, Arial, sans-serif;
+}
+.episode-source-scene, .episode-source-scene * { box-sizing: border-box; }
+.episode-source-scene::before {
+  content: '';
+  position: absolute;
+  z-index: -2;
+  inset: 0;
+  background-image: linear-gradient(105deg, #071022f5, #10162be8 66%, #10162bbd), var(--episode-backdrop);
+  background-position: center;
+  background-size: cover;
+}
+.episode-source-scene::after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  width: 900px;
+  height: 900px;
+  top: -470px;
+  right: -300px;
+  border: 1px solid #9cf0e332;
+  border-radius: 50%;
+  box-shadow: 0 0 0 90px #9cf0e305, 0 0 0 180px #9cf0e304;
+  pointer-events: none;
+}
+.episode-source-scene h1, .episode-source-scene h2, .episode-source-scene p { margin: 0; }
+.episode-scene-kicker {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  color: #ff7c8a;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  line-height: 1.3;
+}
+.episode-scene-divider { padding: 0 13px; color: #b5c5e05c; }
+.episode-scene-phase {
+  color: var(--episode-aqua);
+  font-size: 20px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-align: right;
+}
+.episode-scene-heading h1 {
+  max-width: 1760px;
+  margin-top: 13px;
+  font-size: 56px;
+  font-weight: 700;
+  letter-spacing: -1.5px;
+  line-height: 1.12;
+}
+.episode-scene-question {
+  margin-top: 14px !important;
+  color: var(--episode-muted);
+  font-size: 29px;
+  line-height: 1.35;
+}
+.episode-scene-main { min-height: 0; display: grid; grid-template-columns: minmax(0, 1fr) 430px; gap: 28px; }
+.episode-policy-grid { min-height: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); grid-auto-rows: 1fr; gap: 20px; }
+.episode-policy-card {
+  position: relative;
+  min-width: 0;
+  min-height: 0;
+  padding: 28px 30px 32px;
+  overflow: hidden;
+  border: 1px solid #8ec5ff30;
+  border-radius: 22px;
+  background: #141d30df;
+  box-shadow: 0 12px 30px #00000014;
+  transition: border-color .5s ease, background-color .5s ease, box-shadow .5s ease, transform .5s ease;
+}
+.episode-policy-top { display: flex; align-items: center; justify-content: space-between; gap: 20px; margin-bottom: 18px; }
+.episode-policy-code { padding: 6px 11px; border-radius: 7px; background: #233b68; color: var(--episode-aqua); font-size: 22px; font-weight: 700; line-height: 1.15; }
+.episode-policy-number { color: #8ec5ff50; font-size: 26px; font-weight: 700; font-variant-numeric: tabular-nums; }
+.episode-policy-card > p { color: #dce7f8; font-size: 28px; font-weight: 400; line-height: 1.43; overflow-wrap: break-word; }
+.episode-policy-card.is-active { border-color: var(--episode-aqua); background: #1b3152f0; box-shadow: inset 0 0 0 1px #9cf0e344, 0 14px 40px #00000028; transform: translateY(-3px); }
+.episode-policy-card.is-active > p { color: #fff; }
+.episode-policy-card.is-active .episode-policy-number { color: var(--episode-aqua); }
+.episode-policy-card.is-complete:not(.is-active) { border-color: #9cf0e35c; }
+.episode-policy-card.is-complete:not(.is-active) .episode-policy-number { color: #9cf0e39c; }
+.episode-policy-focus { position: absolute; left: 30px; right: 30px; bottom: 17px; height: 3px; border-radius: 3px; background: #9cf0e310; }
+.episode-policy-focus::after { content: ''; display: block; height: 100%; width: 0; background: var(--episode-aqua); border-radius: inherit; transition: width .4s ease; }
+.episode-policy-card.is-active .episode-policy-focus::after { width: var(--policy-progress, 100%); }
+.episode-wiri-pane { min-width: 0; min-height: 0; display: grid; grid-template-rows: minmax(170px, 1fr) auto; gap: 16px; }
+.episode-wiri-stage { position: relative; min-height: 0; display: grid; place-items: center; overflow: hidden; border-radius: 26px; }
+.episode-wiri-portrait { position: relative; z-index: 1; display: block; width: 284px; height: 284px; max-width: calc(100% - 40px); max-height: calc(100% - 28px); min-height: 0; object-fit: contain; animation: episodeWiriFloat 5s ease-in-out infinite; }
+.episode-wiri-orbit { position: absolute; left: 50%; top: 50%; width: 330px; height: 330px; translate: -50% -50%; border: 1px dashed #9cf0e345; border-radius: 50%; background: radial-gradient(circle, #5d43bd35, transparent 70%); animation: episodeOrbit 36s linear infinite; }
+.episode-wiri-orbit::after { content: ''; position: absolute; width: 11px; height: 11px; border-radius: 50%; background: var(--episode-aqua); left: 27px; top: 60px; box-shadow: 0 0 24px #9cf0e3cc; }
+.episode-wiri-star { position: absolute; color: var(--episode-aqua); font-size: 29px; opacity: .8; animation: episodeStarPulse 4s ease-in-out infinite; }
+.episode-wiri-star-one { left: 20px; top: 27%; }
+.episode-wiri-star-two { right: 35px; bottom: 16%; color: #ff7c8a; font-size: 21px; animation-delay: -2s; }
+.episode-wiri-advice { padding: 25px 27px 28px; border: 1px solid #9cf0e332; border-radius: 20px; background: #1a3159ed; }
+.episode-wiri-advice h2 { display: flex; align-items: center; gap: 12px; color: var(--episode-aqua); font-size: 21px; line-height: 1.3; letter-spacing: 1px; }
+.episode-wiri-advice h2 > span { font-size: 25px; }
+.episode-wiri-advice > p { margin-top: 15px; color: #f2f6ff; font-size: 26px; line-height: 1.4; }
+.episode-flight-check { display: grid; grid-template-columns: 270px minmax(0, 1fr); align-items: center; gap: 28px; padding: 22px 28px; border: 1px solid #ff7c8a45; border-left: 5px solid #ff7c8a; border-radius: 16px; background: #141d30e8; }
+.episode-flight-check h2 { color: #ff9aa5; font-size: 22px; letter-spacing: 1.4px; text-transform: uppercase; line-height: 1.35; }
+.episode-flight-check p { color: #e5ecf8; font-size: 26px; line-height: 1.4; }
+.episode-policy-timeline { display: flex; align-items: center; gap: 28px; min-height: 28px; }
+.episode-timeline-label, .episode-timeline-count { flex-shrink: 0; color: #91a7c6; font-size: 16px; font-weight: 600; letter-spacing: 1.3px; }
+.episode-policy-track { display: flex; flex: 1; gap: 15px; }
+.episode-track-step { flex: 1; color: #627b9c; font-size: 16px; line-height: 1.1; }
+.episode-track-step > span { display: block; margin-bottom: 8px; }
+.episode-track-step > i { display: block; width: 100%; height: 4px; border-radius: 4px; background: #233b68; transition: background-color .5s ease; }
+.episode-track-step.is-active { color: var(--episode-aqua); }
+.episode-track-step.is-active > i { background: var(--episode-aqua); box-shadow: 0 0 12px #9cf0e350; }
+.episode-track-step.is-complete > i { background: #9cf0e385; }
+.episode-track-step.is-active.is-complete > i { background: var(--episode-aqua); }
+.episode-source-scene[data-scene-stage="outro"] .episode-wiri-advice,
+.scene-artboard[data-scene-stage="outro"] .episode-wiri-advice { border-color: var(--episode-aqua); box-shadow: 0 0 30px #9cf0e318; }
+.player-shell.paused .episode-source-scene * { animation-play-state: paused; }
+@keyframes episodeWiriFloat { 0%, 100% { transform: translateY(0) rotate(-2deg); } 50% { transform: translateY(-13px) rotate(2deg); } }
+@keyframes episodeOrbit { to { rotate: 360deg; } }
+@keyframes episodeStarPulse { 0%, 100% { opacity: .45; scale: .9; } 50% { opacity: 1; scale: 1.1; } }
+@media (prefers-reduced-motion: reduce) {
+  .episode-source-scene *, .episode-source-scene *::before, .episode-source-scene *::after { animation: none !important; transition: none !important; }
+}

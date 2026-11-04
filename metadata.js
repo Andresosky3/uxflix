@@ -4,84 +4,144 @@ window.UXFLIX_SEASONS=[
     "title": "Exploración",
     "phase": "Exploración",
     "subtitle": "Entendemos el problema",
-    "description": "Entendemos el problema y el contexto del negocio.",
+    "description": "Entendemos el negocio, levantamos requerimientos con fuente y analizamos referentes antes de diseñar.",
     "background": "assets/8a9ea.png",
     "character": "assets/e0cf7.png",
-    "duration": "1 a 3 días",
+    "duration": "2 a 4 días",
     "color": "#0753ae",
     "card": "assets/c3cd3.png",
     "icon": "assets/c4163.svg",
-    "tipImage": "assets/48-1500-85f6f.svg"
+    "tipImage": "assets/48-1500-85f6f.svg",
+    "methodology": "Descubrir",
+    "about": "La fase Descubrir reúne la sesión de inicio con negocio, la documentación del problema y su medida de éxito, el levantamiento con quienes viven el proceso y el análisis de referentes. Identifica a quien aprueba y revisa el sistema de diseño o manual de marca del cliente.",
+    "exitCriteria": "Responsable de negocio que apruebe identificado; problema y medida de éxito documentados; requerimientos con fuente, tipo y prioridad; referentes y pendientes de validación registrados.",
+    "deliverables": [
+      "Acta de inicio y brief del problema, el objetivo y la medida de éxito.",
+      "Registro del responsable de aprobación y del proceso actual con puntos de dolor.",
+      "Matriz de requerimientos con tipo, prioridad, fuente y fecha.",
+      "Lista de supuestos y preguntas pendientes de validación.",
+      "Matriz de referentes e inventario del sistema de diseño o manual de marca."
+    ]
   },
   {
     "id": 2,
     "title": "Plan de vuelo",
     "phase": "Plan de vuelo",
     "subtitle": "Estructuramos la solución",
-    "description": "Acompañar la construcción de la solución, documentar las especificaciones y verificar que el desarrollo cumpla con los diseños y requerimientos aprobados.",
+    "description": "Organizamos los roles, la navegación y los flujos, y acordamos por escrito qué incluye el proyecto y qué queda fuera.",
     "background": "assets/320af.png",
     "character": null,
     "duration": "3 a 5 días",
     "color": "#5429af",
     "card": "assets/028b8.png",
     "icon": "assets/6bc64.svg",
-    "tipImage": "assets/85f6f.svg"
+    "tipImage": "assets/85f6f.svg",
+    "methodology": "Definir",
+    "about": "La fase Definir construye los roles y permisos, los caminos principales, alternos y de error, y el mapa de módulos y pantallas. Los flujos se validan con negocio antes de definir un alcance con exclusiones explícitas, cronograma, herramienta de prototipado y rondas de ajuste.",
+    "exitCriteria": "Flujos y alcance aprobados por escrito, con cronograma, herramienta de prototipado, rondas de ajuste y exclusiones explícitas. El alcance requiere la aprobación de negocio y del líder del equipo.",
+    "deliverables": [
+      "Matriz de roles y permisos.",
+      "Mapa de navegación y diagramas de flujos principales, alternos y de error.",
+      "Documento de alcance con módulos, pantallas y exclusiones explícitas.",
+      "Cronograma por fase y acuerdo de herramienta y rondas de ajuste.",
+      "Registro de validación de flujos y aprobación escrita del alcance."
+    ]
   },
   {
     "id": 3,
     "title": "Construcción de la nave",
     "phase": "Construcción de la nave",
     "subtitle": "Creamos y prototipamos",
-    "description": "Ensamblamos la nave pieza a pieza: de la maqueta al manual de vuelo, con datos ficticios y una historia por pantalla.",
+    "description": "Validamos la maqueta, diseñamos la solución con todos sus estados y conectamos cada pantalla con historias de usuario.",
     "background": "assets/c731e.png",
     "character": "assets/86ed5.png",
-    "duration": "2 a 20 días · iterativo",
+    "duration": "Iterativo / 2 a 20 días",
     "color": "#b71e48",
     "card": "assets/7ac8d.png",
     "icon": "assets/7072a.svg",
-    "tipImage": null
+    "tipImage": null,
+    "methodology": "Diseñar",
+    "about": "La fase Diseñar convierte el alcance en prototipos de baja y alta fidelidad, en Figma o HTML con Claude según lo acordado. La baja fidelidad se valida antes de avanzar, Desarrollo revisa la viabilidad de la alta fidelidad y cada pantalla queda vinculada a historias con criterios de aceptación y reglas de negocio.",
+    "exitCriteria": "Baja fidelidad validada con negocio, estados de alta fidelidad diseñados y viabilidad técnica revisada por Desarrollo; cada pantalla tiene al menos una historia con criterios de aceptación y trazabilidad al prototipo.",
+    "deliverables": [
+      "Prototipo de baja fidelidad con todas las pantallas del alcance y su validación.",
+      "Prototipo de alta fidelidad con todos los estados y datos ficticios o anonimizados.",
+      "Componentes reutilizables en Figma o enlace HTML con versión identificada, según la herramienta acordada.",
+      "Registro de revisión de viabilidad técnica por Desarrollo.",
+      "Historias de usuario con criterios de aceptación y referencias a pantallas y reglas de negocio."
+    ]
   },
   {
     "id": 4,
     "title": "Simulador de vuelo",
     "phase": "Simulador de vuelo",
     "subtitle": "Validamos experiencias",
-    "description": "Validamos la experiencia con usuarios y con el cliente antes de construir.",
+    "description": "Probamos con usuarios representativos, resolvemos hallazgos críticos y obtenemos la aprobación escrita del prototipo.",
     "background": "assets/19ecd.png",
     "character": "assets/7d46f.png",
-    "duration": "1 a 3 días",
+    "duration": "Iterativo / 1 a 3 días",
     "color": "#364a92",
     "card": "assets/19ecd.png",
     "icon": "assets/84df5.svg",
-    "tipImage": "assets/25-4442-85f6f.svg"
+    "tipImage": "assets/25-4442-85f6f.svg",
+    "methodology": "Testeo",
+    "about": "La fase Testeo usa un guion de tareas con usuarios representativos de cada rol, sin guiarlos, y clasifica los hallazgos por severidad. Después de corregir los críticos se presenta el prototipo al cliente; su aprobación queda escrita y la versión se congela como referencia para Desarrollo.",
+    "exitCriteria": "Ningún hallazgo crítico abierto al solicitar aprobación; aprobación del prototipo por escrito y versión congelada. Los cambios posteriores pasan por control de cambios.",
+    "deliverables": [
+      "Plan de pruebas con roles representativos y guion de tareas.",
+      "Registro de hallazgos con severidad y evidencia de corrección de los críticos.",
+      "Registro de presentación de los flujos principales al cliente.",
+      "Aprobación escrita y versión congelada del prototipo.",
+      "Registro de control de cambios posteriores, cuando existan."
+    ]
   },
   {
     "id": 5,
     "title": "Lanzamiento",
     "phase": "Lanzamiento",
     "subtitle": "Hacemos realidad",
-    "description": "Ejecución y validación de la solución: llevamos el diseño a desarrollo.",
+    "description": "Documentamos el SOW, acompañamos a Desarrollo y validamos la solución antes y después de salir a producción.",
     "background": "assets/97ac7.png",
     "character": "assets/5b091.png",
-    "duration": "SOW: 2 a 4 días",
+    "duration": "Ejecución y validación de la solución",
     "color": "#a14d19",
     "card": "assets/97ac7.png",
     "icon": "assets/45a48.svg",
-    "tipImage": "assets/25-4473-85f6f.svg"
+    "tipImage": "assets/25-4473-85f6f.svg",
+    "methodology": "Implementar",
+    "about": "La fase Implementar reúne la documentación SOW en formato IT-F-030, el Checklist de Handoff UX, el acompañamiento por un canal único y las revisiones de avance. Valida preproducción contra el prototipo y las historias, cierra bloqueantes y coordina la salida con el líder, Desarrollo y el cliente. La documentación SOW toma de 2 a 4 días.",
+    "exitCriteria": "SOW y checklist completos antes de iniciar desarrollo; ajustes reflejados primero en el prototipo vigente; ningún bloqueante abierto; salida aprobada por el líder, Desarrollo y el cliente, con flujos verificados y usuarios informados.",
+    "deliverables": [
+      "SOW IT-F-030 con enlace al prototipo vigente, capturas y propuestas de seguridad por validar.",
+      "Checklist de Handoff UX completo.",
+      "Registro de dudas, revisiones de avance y ajustes del prototipo vigente.",
+      "Checklist por pantalla y registro de hallazgos de preproducción con evidencia.",
+      "Aprobaciones de salida, verificación de flujos en producción y comunicación de cambios.",
+      "Backlog de hallazgos posteriores a la salida."
+    ]
   },
   {
     "id": 6,
     "title": "Órbita",
     "phase": "Órbita",
     "subtitle": "Mejora continua",
-    "description": "Proceso continuo: medimos, aprendemos y mejoramos la solución en cada iteración.",
+    "description": "Registramos y priorizamos las mejoras, revisamos el backlog con negocio y aprendemos de cada proyecto.",
     "background": "assets/979a3.png",
     "character": "assets/da23c.png",
     "duration": "Proceso continuo",
     "color": "#70429b",
     "card": "assets/979a3.png",
     "icon": "assets/1a7c7.svg",
-    "tipImage": "assets/25-4506-85f6f.svg"
+    "tipImage": "assets/25-4506-85f6f.svg",
+    "methodology": "Evolucionar",
+    "about": "La fase Evolucionar mantiene un backlog de mejoras con tipo, fuente y prioridad y lo revisa periódicamente con negocio. Cada mejora que se implementa vuelve al paso correspondiente de la metodología, y el equipo realiza una retrospectiva al cerrar cada proyecto.",
+    "exitCriteria": "Toda mejora posterior registrada con tipo, fuente y prioridad; backlog revisado periódicamente con negocio y retrospectiva realizada al cierre de cada proyecto.",
+    "deliverables": [
+      "Backlog de mejoras con tipo, fuente y prioridad.",
+      "Registro de revisiones periódicas con negocio.",
+      "Trazabilidad del paso de la metodología al que reingresa cada mejora.",
+      "Acta de retrospectiva del equipo al cierre del proyecto."
+    ]
   }
 ];
-window.UXFLIX_MISSION=["REGISTRO OFICIAL   /   NAVE OS-UXUI   /   DOCUMENTO N.º 001  ", "Outsourcing", "CARTA DE LA MISIÓN UX/UI", "Declaración de los protocolos generales de vuelo", "N", "osotros, la tripulación del equipo UX/UI, a bordo de cada proyecto que emprendemos, declaramos que ninguna misión despega sin propósito, sin plan y sin acuerdo. Para que cada viaje llegue a su destino y cada decisión sirva a quienes usan lo que diseñamos, adoptamos los siguientes protocolos como ley de a bordo.", "ARTICULADO   /   NUEVE PROTOCOLOS GENERALES", "I", "PG-01", "De la orden de vuelo", "Ninguna misión despega sin una solicitud formal y un responsable de negocio identificado.", "II", "PG-02", "Del registro", "Toda decisión tomada con el cliente queda registrada por escrito, en acta o correo.", "III", "PG-03", "Del prototipo vigente", "Cada proyecto tiene una sola versión oficial del prototipo, en Figma o en HTML, identificada con número de versión y fecha.", "IV", "PG-04", "Del combustible y los tiempos", "Los tiempos de cada fase son los de la metodología. Si una fase se excede, se informa al líder con la causa y la nueva fecha.", "V", "PG-05", "Del cambio de rumbo", "Todo cambio de alcance posterior a su aprobación se gestiona como control de cambios.", "VI", "PG-06", "De los datos de simulación", "Prototipos, documentos y pruebas usan datos ficticios o anonimizados, nunca datos reales.", "VII", "PG-07", "De la identidad de la nave", "Todo diseño aplica los Lineamientos de Diseño UI del equipo o el sistema de diseño del cliente cuando el proyecto lo exige.", "VIII", "PG-08", "De la inteligencia a bordo", "En Claude IA no se carga información confidencial: credenciales, datos personales, bases de datos ni código crítico.", "IX", "PG-09", "Del GO / NO-GO", "Ninguna fase se cierra sin cumplir su criterio de salida.", "Capitana Nova · UX/UI", "Control de Misión · Negocio", "Ingeniero Orión · Desarrollo", "Directora Vega · Líder", "PREÁMBULO  ·  DECLARACIÓN DE LA TRIPULACIÓN", "VALIDACIÓN DE LA TRIPULACIÓN", "Desplázate para leer la carta completa · Al entrar aceptas los protocolos de la misión", "Aceptar y entrar a la misión"];
+window.UXFLIX_MISSION=["REGISTRO OFICIAL   /   NAVE OS-UXUI   /   DOCUMENTO N.º 001  ","Outsourcing","CARTA DE LA MISIÓN UX/UI","Declaración de los protocolos generales de vuelo","N","osotros, la tripulación del equipo UX/UI, a bordo de cada proyecto que emprendemos, declaramos que ninguna misión despega sin propósito, sin plan y sin acuerdo. Para que cada viaje llegue a su destino y cada decisión sirva a quienes usan lo que diseñamos, adoptamos los siguientes protocolos como ley de a bordo.","ARTICULADO   /   NUEVE PROTOCOLOS GENERALES","I","PG-01","De la orden de vuelo","Ninguna misión despega sin una solicitud formal y un responsable de negocio identificado.","II","PG-02","Del registro","Toda decisión tomada con el cliente queda registrada por escrito, en acta o correo.","III","PG-03","Del prototipo vigente","Cada proyecto tiene una sola versión oficial del prototipo, en Figma o en HTML, identificada con número de versión y fecha.","IV","PG-04","Del combustible y los tiempos","Los tiempos de cada fase son los de la metodología. Si una fase se excede, se informa al líder con la causa y la nueva fecha.","V","PG-05","Del cambio de rumbo","Todo cambio de alcance posterior a su aprobación se gestiona como control de cambios.","VI","PG-06","De los datos de simulación","Prototipos, documentos y pruebas usan datos ficticios o anonimizados, nunca datos reales.","VII","PG-07","De la identidad de la nave","Todo diseño aplica los Lineamientos de Diseño UI del equipo o el sistema de diseño del cliente cuando el proyecto lo exige.","VIII","PG-08","De la inteligencia a bordo","En Claude IA no se carga información confidencial: credenciales, datos personales, bases de datos ni código crítico.","IX","PG-09","Del GO / NO-GO","Ninguna fase se cierra sin cumplir su criterio de salida.","Capitana Nova · UX/UI","Control de Misión · Negocio","Ingeniero Orión · Desarrollo","Directora Vega · Líder","PREÁMBULO  ·  DECLARACIÓN DE LA TRIPULACIÓN","VALIDACIÓN DE LA TRIPULACIÓN","Desplázate para leer la carta completa · Al entrar aceptas los protocolos de la misión","Aceptar y entrar a la misión"];
